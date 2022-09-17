@@ -19,5 +19,15 @@
     --vp-button-brand-hover-bg: #ffa8a6;
   
     --vp-button-brand-active-border: #ffa8a6;
-  
+    --c-brand: #feb986;
+    --c-brand-light: #feb986;
+}
+.docs-cn-github-release-tag {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 6px;
+  margin-left: 6px;
+  background: var(--c-brand);
+  color: white;
+  border-radius: 10px;
 }

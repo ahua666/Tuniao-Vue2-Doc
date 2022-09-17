@@ -7,7 +7,8 @@ titleTemplate: 一个Vue3组件库
 hero:
   name: Star UI
   text: 一个Vue3组件库
-  tagline: 没啥特点仅供学习
+  tagline: 快捷、方便且高可用
+    
   image:
     src: /logo.png
     alt: Star
@@ -30,3 +31,10 @@ features:
     details: 直接支持按需引入无需配置任何插件。
 ---
 
+<script setup>
+import { onMounted } from 'vue'
+import { fetchReleaseTag } from './.vitepress/utils/fetchReleaseTag.js'
+onMounted(() => {
+  fetchReleaseTag()
+})
+</script>
