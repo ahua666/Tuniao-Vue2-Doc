@@ -38,9 +38,9 @@ export default defineConfig({
             {
                 text: '资源',
                 items: [
-                    {text: 'Item A', link: '/item-1'},
-                    {text: 'Item B', link: '/item-2'},
-                    {text: 'Item C', link: '/item-3'}
+                    {text: 'Item A', link: '/'},
+                    {text: 'Item B', link: '/'},
+                    {text: 'Item C', link: '/'}
                 ]
             }
         ],
