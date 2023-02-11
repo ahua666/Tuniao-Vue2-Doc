@@ -8,7 +8,7 @@ yarn-error.log*
 tests/**/coverage/
 tests/e2e/reports
 selenium-debug.log
-
+docs/.vitepress/dist/
 # Editor directories and files
 .idea
 .vscode

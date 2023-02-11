@@ -10,7 +10,7 @@ hero:
   tagline: 快捷、方便且高可用
     
   image:
-    src: ../.vitepress/public/logo.png
+    src: /.vitepress/public/logo.png
     alt: Star
   actions:
     - theme: brand
@@ -28,7 +28,7 @@ features:
     details: 继承Tuniao Vue2版，继续保持美观易用。
   - icon: 🛠️
     title: 按需引入
-    details: 直接支持按需引入无需配置任何插件。
+    details: 直接支持按需引入无需配置任何插件
 ---
 
 <script setup>
