@@ -14,10 +14,10 @@
   --vp-home-hero-image-filter: blur(56px);
   /*background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);*/
     /* brand按钮 */
-  --vp-button-brand-border: #43CBFF;
+  --vp-button-brand-border: #3668FC;
   /*--vp-button-brand-border: #feb986;*/
     --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #43CBFF;
+    --vp-button-brand-bg: #3668FC;
     /* feb986 */
     --vp-button-brand-hover-border: #3668FC;
     --vp-button-brand-hover-text: #fff;

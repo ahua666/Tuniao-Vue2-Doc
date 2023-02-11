@@ -28,6 +28,7 @@ export default defineConfig({
         socialLinks: [     // 信息栏展示社交信息
             {icon: 'github', link: "https://github.com/ahua666"},
         ],
+
         nav: [
             {text: '指南', link: '/guide/demo'},
             {text: '组件', link: '/components/install'},
