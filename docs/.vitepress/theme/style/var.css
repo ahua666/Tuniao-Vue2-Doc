@@ -23,9 +23,26 @@
     --vp-button-brand-hover-text: #fff;
     --vp-button-brand-hover-bg: #3668FC;
   
-    --vp-button-brand-active-border: #ffa8a6;
+    --vp-button-brand-active-border: #43CBFF;
     --c-brand: #feb986;
     --c-brand-light: #feb986;
+    --vp-button-brand-active-bg:#43CBFF;
+
+/*  NavBar 按钮*/
+/*  --vp-c-brand: var(--vp-c-green);*/
+/*  --vp-c-brand-light: var(--vp-c-green-light);*/
+/*  --vp-c-brand-lighter: var(--vp-c-green-lighter);*/
+/*  --vp-c-brand-dark: var(--vp-c-green-dark);*/
+/*  --vp-c-brand-darker: var(--vp-c-green-darker);*/
+  --vp-c-brand: #3668FC;
+  --vp-c-brand-light: #3260e8;
+  --vp-c-brand-lighter: #4164cc;
+  --vp-c-brand-dark: #435ca6;
+  --vp-c-brand-darker: #455585;
+
+  --vp-custom-block-tip-border: #646cff;
+  --vp-custom-block-tip-text: #4164cc;
+  --vp-custom-block-tip-bg: #646cff14;
 }
 .docs-cn-github-release-tag {
   font-size: 14px;
