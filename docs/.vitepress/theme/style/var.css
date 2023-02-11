@@ -44,6 +44,11 @@
   --vp-custom-block-tip-text: #4164cc;
   --vp-custom-block-tip-bg: #646cff14;
 }
+.dark{
+  --vp-custom-block-tip-border: #9fa4ff;
+  --vp-custom-block-tip-text: #799bff;
+  --vp-custom-block-tip-bg: #2a35ff14;
+}
 .docs-cn-github-release-tag {
   font-size: 14px;
   font-weight: bold;
