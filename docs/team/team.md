@@ -11,7 +11,7 @@ import {
 
 const members = [
 {
-    avatar: '../.vitepress/public/common/kewohuixiang.jpg',
+    avatar: '/kewohuixiang.jpg',
     name: '可我会像',
     title: '开发者',
     desc:'图鸟背锅侠'
@@ -27,25 +27,25 @@ const members = [
   },
 
 {
-    avatar: '../.vitepress/public/common/Jaylen.jpg',
+    avatar: '/Jaylen.jpg',
     name: 'Jaylen',
     title: '开发者',
     desc:'负责TuniaoUI技术架构与实施，组织架构设计与升级优化等工作'
   },
 {
-    avatar: '../.vitepress/public/common/yuanyuan.jpg',
+    avatar: '/yuanyuan.jpg',
     name: '圆圆',
     title: '高级设计师',
     desc:'肥姑妈、sketch、即时设计、PS、Ai、Axure、墨刀、xiaopiu等'
   },
 {
-    avatar: '../.vitepress/public/common/buxuxiongwo.jpg',
+    avatar: '/buxuxiongwo.jpg',
     name: '不许凶我',
     title: '高级设计师',
     desc:'设计工具：PS、Ai、肥姑妈、AE、搅拌机、C4D等'
   },
 {
-    avatar: '../.vitepress/public/common/tu.jpg',
+    avatar: '/tu.jpg',
     name: '弃续',
     title: '开发者',
     desc:'负责TuniaoUI核心组件研发，维护与升级，技术支持等工作'
