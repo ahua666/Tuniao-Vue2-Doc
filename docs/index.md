@@ -10,7 +10,7 @@ hero:
   tagline: 快捷、方便且高可用
     
   image:
-    src: .vitepress/public/logo.png
+    src: /logo.png
     alt: Star
   actions:
     - theme: brand
