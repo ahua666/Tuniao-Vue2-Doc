@@ -1,22 +1,27 @@
 :root {
   /* 标题 */
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #FFA8A8 30%, #FCFF00);
+  --vp-home-hero-name-background: -webkit-linear-gradient( 135deg, #43CBFF 10%, #3668FC 100%);
+
+  /*--vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #FFA8A8 30%, #FCFF00);*/
   /* linear-gradient( -45deg, #FFA8A8 50%, #FCFF00 50%); */
   /* linear-gradient( -45deg, #bd34fe 50%, #47caff 50% ) */
   /* -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff ) */
   /* 图标背景 */
-  --vp-home-hero-image-background-image: linear-gradient( -45deg, #ff8f8691 50%, #f1d06c 50%);
+    --vp-home-hero-image-background-image: linear-gradient( 135deg, #43CBFF 10%, #3668FC 100%);
+
+  /*--vp-home-hero-image-background-image: linear-gradient( -45deg, #ff8f8691 50%, #f1d06c 50%);*/
   --vp-home-hero-image-filter: blur(56px);
-  
+  /*background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);*/
     /* brand按钮 */
-    --vp-button-brand-border: #feb986;
+  --vp-button-brand-border: #43CBFF;
+  /*--vp-button-brand-border: #feb986;*/
     --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #feb986;
+    --vp-button-brand-bg: #43CBFF;
     /* feb986 */
-    --vp-button-brand-hover-border: #ffa8a6;
+    --vp-button-brand-hover-border: #3668FC;
     --vp-button-brand-hover-text: #fff;
-    --vp-button-brand-hover-bg: #ffa8a6;
+    --vp-button-brand-hover-bg: #3668FC;
   
     --vp-button-brand-active-border: #ffa8a6;
     --c-brand: #feb986;
@@ -27,7 +32,7 @@
   font-weight: bold;
   padding: 4px 6px;
   margin-left: 6px;
-  background: var(--c-brand);
+  background: var(--vp-home-hero-image-background-image);
   color: white;
   border-radius: 10px;
 }
