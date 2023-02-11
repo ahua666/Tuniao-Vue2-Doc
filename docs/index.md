@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Star
+title: Tuniao
 titleTemplate: 一个Vue3组件库
 
 hero:
-  name: Star UI
+  name: Tuniao UI
   text: 一个Vue3组件库
   tagline: 快捷、方便且高可用
     
@@ -22,10 +22,10 @@ hero:
 features:
   - icon: 💡
     title: Vue3组件库
-    details: 基于vite打包和VUE3开发
+    details: 享受vue3的极速体验，享受TypeScript的强类型提示，性能强劲快速,vite编译速度极快。
   - icon: 📦
-    title: 仅供学习使用
-    details: 倾向于Vue3组件库的学习，请勿用于实际生产项目
+    title: 高颜值
+    details: 继承Tuniao Vue2版，继续保持美观易用。
   - icon: 🛠️
     title: 按需引入
     details: 直接支持按需引入无需配置任何插件。
