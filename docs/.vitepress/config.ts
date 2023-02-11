@@ -67,6 +67,7 @@ export default defineConfig({
                     {text: '内置样式', link: '/components/common',},
                     {text: '注意事项', link: '/components/feature',},
                 ],
+                collapsed: true,
             }],
         },
     },
