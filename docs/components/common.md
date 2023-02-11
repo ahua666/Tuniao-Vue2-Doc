@@ -5,7 +5,7 @@
 
 TuniaoUI组件的实现并不依赖全局样式，内置的一些类名，只是提供一些基础且常用的样式，仅此而已。
 
-注意：请根据[快速上手](./get_started_quickly.md/#快速上手)的说明，引入TuniaoUI提供的scss文件
+注意：请根据[快速上手](quickstart.md#快速上手)的说明，引入TuniaoUI提供的scss文件
 
 ::: warning  温馨提示
 由于TuniaoUI的内置样式均写在scss文件中，所以在使用的时候，请确保给页面的`style`标签加上`lang="scss"`属性
