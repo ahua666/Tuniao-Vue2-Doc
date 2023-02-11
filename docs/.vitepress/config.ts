@@ -36,6 +36,7 @@ export default defineConfig({
             {text: '资源', link: ''},
             {text: '社区', link: ''},
             {text: '作品', link: ''},
+            {text: '团队', link: '/team/team'},
             {
                 text: '资源',
                 items: [
