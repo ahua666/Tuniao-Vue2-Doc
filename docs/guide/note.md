@@ -104,7 +104,7 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
 </style>
 ```
 
-在微信小程序中要求有夫元素的类名存在：
+在微信小程序中要求有父元素的类名存在：
 
 ```vue
 <template>
