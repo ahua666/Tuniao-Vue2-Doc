@@ -84,7 +84,7 @@
 
 	@media screen and (min-width: 1366px) {
 		.demo-model {
-			width: 270;
+			width: 270px;
 			height: calc(270px * 143.6 / 70.9);
 			top: calc((100vh - 110px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
       right:0px;
@@ -96,7 +96,7 @@
 		.demo-model {
 			width: 310px;
 			height: calc(310px * 143.6 / 70.9);
-			top: calc((100vh - 150px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
+			top: calc((100vh - 310px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
       right:0px;
       margin-right: 66px;
 		}
@@ -104,11 +104,11 @@
 
 	@media screen and (min-width: 1920px) {
 		.demo-model {
-			width: 360px;
-			height: calc(360px * 143.6 / 70.9);
-			top: calc((100vh - 200px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
+			width: 330px;
+			height: calc(330px * 143.6 / 70.9);
+			top: calc((100vh - 330px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
       right:0px;
-      margin-right: 150px;
+      margin-right: 77px;
 		}
 	}
 </style>
