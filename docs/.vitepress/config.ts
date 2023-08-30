@@ -108,6 +108,12 @@ export default defineConfig({
                 ],
                 collapsed: false,
             }, {
+                text: '反馈组件',
+                items: [
+                    {text: 'ActionSheet 操作菜单', link: '/components/actionSheet',},
+                ],
+                collapsed: false,
+            },{
                 text: '布局组件',
                 items: [
                     {text: 'List 列表容器', link: '/components/list_view',},
@@ -117,6 +123,12 @@ export default defineConfig({
                     {text: 'Skeleton 骨架屏', link: '/components/skeleton',},
                     {text: 'Sticky 吸顶', link: '/components/sticky',},
                     {text: 'TimeLine 时间轴', link: '/components/time_line',},
+                ],
+                collapsed: false,
+            },{
+                text: '其他组件',
+                items: [
+                    {text: 'CodeInput 验证码输入', link: '/components/codeInput',},
                 ],
                 collapsed: false,
             },
