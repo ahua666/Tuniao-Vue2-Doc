@@ -18,7 +18,7 @@ hero:
       link: /guide/demo
     - theme: alt
       text: 在 Github 上查看
-      link: https://github.com/ahua666
+      link: https://github.com/ahua666/tuniaoUI
 features:
   - icon: 💡
     title: 组件
