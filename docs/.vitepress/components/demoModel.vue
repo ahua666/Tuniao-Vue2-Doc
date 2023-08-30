@@ -16,7 +16,7 @@
 		},
 		data() {
 			return {
-				baseUrl: 'https://tuniao.ahuaaa.cn/#'
+				baseUrl: 'https://vue2demo.tuniaokj.com/#'
 			}
 		},
 		computed: {
