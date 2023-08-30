@@ -1,7 +1,7 @@
 ## Flex布局 
 <demo-model url="/basicPage/flex-layout/flex-layout"></demo-model>
 ::: warning 注意
-如需实现类似宫格的布局，请使用TuniaoUI的[Grid宫格组件](/components/grid.html)，可以设置点击效果、列数、对齐方式等，功能更完善和灵活
+如需实现类似宫格的布局，请使用TuniaoUI的[Grid宫格组件](grid.md)，可以设置点击效果、列数、对齐方式等，功能更完善和灵活
 :::
 TuniaoUI定义了一个常用的类，命名为`tn-flex`
 

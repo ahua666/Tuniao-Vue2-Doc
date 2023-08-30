@@ -72,7 +72,6 @@ export default defineConfig({
                 collapsed: false,
             }, {
                 text: '基础组件',
-
                 items: [
                     // {text: 'Color 色彩', link: '/components/color'},//颜色显示暂时有点问题 先不显示
                     {text: 'Icon 图标', link: '/components/icon',},
@@ -86,6 +85,12 @@ export default defineConfig({
                     {text: 'ReadMore 查看更多', link: '/components/readMore',},
                     {text: 'Steps 步骤条', link: '/components/steps',},
                     {text: 'SwipeAction 滑动单元格', link: '/components/swipeAction',},
+                ],
+                collapsed: false,
+            }, {
+                text: '布局组件',
+                items: [
+                    {text: 'Grid 宫格布局', link: '/components/grid',},
                 ],
                 collapsed: false,
             },
