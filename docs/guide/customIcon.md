@@ -1,6 +1,6 @@
 ## CustomIcon 扩展自定义图标库
 
-<!-- <demo-model url="/pages/componentsA/icon/index"></demo-model> -->
+<!-- <demo-model url="/pages/componentsA/icon/index"></demo-model> -->`
 
 
 TuniaoUI 已通过大量的实践中，收集了用户最有可能需要用到的图标，见[Icon 图标](/components/icon.html)，但我们也相信，它肯定无法覆盖所有的场景和需求。  

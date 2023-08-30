@@ -19,9 +19,14 @@ export default {
           groupLink: 'https://jq.qq.com/?_wv=1027&k=phAZYOaK'
         },
         {
-          name: '官方1群',
+          name: '官方1群 (已满)',
           groupID: '955598602',
           groupLink: 'https://jq.qq.com/?_wv=1027&k=phAZYOaK'
+        },
+        {
+          name: '官方2群',
+          groupID: '765208290',
+          groupLink: 'https://jq.qq.com/?_wv=1027&k=8WlATIbR'
         },
       ]
     }
