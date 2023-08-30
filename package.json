@@ -8,6 +8,7 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
