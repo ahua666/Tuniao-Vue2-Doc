@@ -121,7 +121,7 @@
 
 #### Select下拉选择模式
 
-将`type`设置为`select`，此时组件将会在外观上呈现出Select选择器的形态，主要体现在右侧多了一个下三角图标，但是此时组件并没有内置下拉的功能， 主要是考虑到移动端的特殊性和TuniaoUI内置组件的关联性，因为想实现下拉选择，不同场景可能会使用不同的组件，比如TuniaoUI的[Picker 选择器](./picker.md)、 [ActionSheet 操作菜单](./actionsheet.md)、[Select 列选择器](./select.md)等，您可以根据情况自由选择合适的组件做搭配。
+将`type`设置为`select`，此时组件将会在外观上呈现出Select选择器的形态，主要体现在右侧多了一个下三角图标，但是此时组件并没有内置下拉的功能， 主要是考虑到移动端的特殊性和TuniaoUI内置组件的关联性，因为想实现下拉选择，不同场景可能会使用不同的组件，比如TuniaoUI的[Picker 选择器](picker.md)、 [ActionSheet 操作菜单](actionSheet.md)、[Select 列选择器](select.md)等，您可以根据情况自由选择合适的组件做搭配。
 
 - 以上说的可以配合的组件，它们都有一个共同的通过`v-model`绑定弹出与收起的参数，可以同时将此参数赋值给`tn-input`组件的`selectOpen`参数， 当此参数为`true`(也即`Select`选择器打开时)，右侧的下三角图标会翻转，为`false`时，恢复原位。
 - 监听组件的`@click`事件，在此将绑定选择器的参数修改为`true`即可。

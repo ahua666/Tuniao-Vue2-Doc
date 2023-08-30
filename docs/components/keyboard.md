@@ -3,7 +3,7 @@
 <demo-model url="/componentsPage/keyboard/keyboard"></demo-model>
 
 该组件为TuniaoUI自定义的键盘面板，内置了数字键盘，车牌号码，身份证3种模式，都有可以打乱按键顺序的选项。
-可以结合TuniaoUI的[验证码输入组件](codeinput.md)使用
+可以结合TuniaoUI的[验证码输入组件](codeInput.md)使用
 
 ### 平台差异说明
 
