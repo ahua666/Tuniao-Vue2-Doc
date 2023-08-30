@@ -1,6 +1,7 @@
 ## 介绍
 
 <demo-model url="/"></demo-model>
+
 美观易用是TuniaoUI追求的。TuniaoUI现在已经发布了uni-app版本，后续会不断的拓展其他原生版本，扩大生态。
 
 ### 链接
@@ -20,49 +21,14 @@ TuniaoUI开源组件遵循[apache](https://baike.baidu.com/item/apache/6848636?f
 
 除了开源内容，本项目还扩展了会员专用内容，对于会员版的版权约束如下：
 
-1. 不能转售或者将Tuniao UI源码（包含使用了Tuniao UI非开源代码）直接发布到公开渠道，违者必究！！！
+1. 不能转售或者将TuniaoUI源码（包含使用了TuniaoUI非开源代码）直接发布到公开渠道，违者必究！！！
 
 ### 线上程序扫码预览
+
 <div class="demo-wrap row">
-	<div class="col-md-3 col-sm-6 col-xs-12">
-		<div class="demo-item">
-			<img src="../.vitepress/public/common/weixin_qrcode.jpg" />
-			<div class="platform-name">
-				TuniaoUI
-				<p class="platform-tips">只能微信扫码</p>
-			</div>
-		</div>
-	</div>
     <div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx2.jpg" />
-			<div class="platform-name">
-				Tuniao圈子
-				<p class="platform-tips">只能微信扫码</p>
-			</div>
-		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx3.jpg" />
-			<div class="platform-name">
-				Tuniao Vue3
-				<p class="platform-tips">只能微信扫码</p>
-			</div>
-		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx4.jpg" />
-			<div class="platform-name">
-				Tuniao 商圈
-				<p class="platform-tips">只能微信扫码</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6 col-xs-12">
-		<div class="demo-item">
-			<img src="../.vitepress/public/common/tuniao_h5.png" />
+			<img src="../.vitepress/public/common/xcx/1_TuniaoUI_H5.png" />
 			<div class="platform-name">
 				TuniaoUI H5
 				<p class="platform-tips">微信或浏览器扫码</p>
@@ -71,45 +37,134 @@ TuniaoUI开源组件遵循[apache](https://baike.baidu.com/item/apache/6848636?f
 	</div>
     <div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx6.jpg" />
+			<img src="../.vitepress/public/common/xcx/2_TuniaoUI.jpg" />
 			<div class="platform-name">
-				Tuniao 壁纸
-				<p class="platform-tips">只能微信扫码</p>
+				图鸟UI
+				<p class="platform-tips">酷炫创意UI框架</p>
 			</div>
 		</div>
 	</div>
     <div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx7.jpg" />
+			<img src="../.vitepress/public/common/xcx/3_TuniaoVue3.jpg" />
 			<div class="platform-name">
-				Tuniao 奶茶
-				<p class="platform-tips">只能微信扫码</p>
+				图鸟Vue3
+				<p class="platform-tips">酷炫创意UI框架</p>
 			</div>
 		</div>
 	</div>
     <div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx8.jpg" />
+			<img src="../.vitepress/public/common/xcx/4_Quanzishangquan.jpg" />
 			<div class="platform-name">
-				Tuniao 官网
-				<p class="platform-tips">只能微信扫码</p>
+				圈子商圈
+				<p class="platform-tips">图鸟模板1</p>
 			</div>
 		</div>
 	</div>
     <div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="demo-item">
-			<img src="../.vitepress/public/common/xcx9.jpg" />
+			<img src="../.vitepress/public/common/xcx/5_shequboke.jpg" />
 			<div class="platform-name">
-				Tuniao 小商店
-				<p class="platform-tips">只能微信扫码</p>
+				社区博客
+				<p class="platform-tips">图鸟模板2</p>
 			</div>
 		</div>
 	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/6_xiongjiebizhi.jpg" />
+			<div class="platform-name">
+				凶姐壁纸
+				<p class="platform-tips">图鸟模板3</p>
+			</div>
+		</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/7_zixunmingpian.jpg" />
+			<div class="platform-name">
+				资讯名片
+				<p class="platform-tips">图鸟模板4</p>
+			</div>
+		</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/8_qiyeguanwang.jpg" />
+			<div class="platform-name">
+				企业官网
+				<p class="platform-tips">图鸟官网</p>
+			</div>
+		</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/9_Pinpaishangcheng.jpg" />
+			<div class="platform-name">
+				品牌商城
+				<p class="platform-tips">图鸟模板6</p>
+			</div>
+		</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/10_BangongOA.jpg" />
+			<div class="platform-name">
+				办公OA
+				<p class="platform-tips">图鸟模板7</p>
+			</div>
+		</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/11_icon.png" />
+			<div class="platform-name">
+				icon演示
+				<p class="platform-tips">微信或浏览器扫码</p>
+			</div>
+		</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/12_xiaoshangdian.jpg" />
+			<div class="platform-name">
+				小商店
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
 </div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/13_manghe.jpg" />
+			<div class="platform-name">
+				盲盒藏品
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/14_tubiao.jpg" />
+			<div class="platform-name">
+				图鸟图表
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/15_vue3zhifubao.jpg" />
+			<div class="platform-name">
+				图鸟vue3-支付宝
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
 
-
-<div class="col-md-24 col-sm-24 col-xs-24">
+</div>
+    <div class="col-md-24 col-sm-24 col-xs-24">
     <img src="../.vitepress/public/common/4-image.jpg" />
+</div>
 </div>
 
 <style scoped>

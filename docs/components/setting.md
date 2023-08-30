@@ -24,7 +24,7 @@ TuniaoUI依赖SCSS，您必须要安装此插件，否则无法正常运行。
 
 #### 准备工作
 
-在配置之前，请确保您已经根据安装步骤中（下载安装方式二）的步骤对TuniaoUI进行下载安装，如果没有，请先下载[安装](install.md)。
+在配置之前，请确保您已经根据安装步骤中（下载安装方式二）的步骤对TuniaoUI进行下载安装，如果没有，请先下载[安装](./install.md/#下载安装)。
 
 
 
@@ -65,8 +65,8 @@ Vue.use(TuniaoUI)
 import store from './store'
 ...
 const app = new Vue({
-  store,
-  ...App
+    store,
+    ...App
 })
 ```
 
@@ -98,9 +98,9 @@ Vue.mixin(vuexStore)
 
 ```scss
 <style lang="scss">
-  /* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
-  @import './tuniao-ui/index.scss';
-  @import './tuniao-ui/iconfont.css';
+                    /* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
+@import './tuniao-ui/index.scss';
+@import './tuniao-ui/iconfont.css';
 </style>
 ```
 
@@ -139,7 +139,7 @@ Vue.mixin(vuexStore)
 :::
 
 ### 视频教程
- 
+
 
 <div class="col-md-24 col-sm-24 col-xs-24">
 <iframe style="width: 80%;height: 720px;margin: 20px" src="//player.bilibili.com/player.html?aid=262383566&bvid=BV1Se411F7du&cid=886418409&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>

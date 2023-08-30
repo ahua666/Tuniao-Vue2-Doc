@@ -17,7 +17,7 @@
     name: 'button',
     data() {
       return {
-        
+
       }
     }
   }
@@ -46,7 +46,7 @@
     },
     data() {
       return {
-        
+
       }
     }
   }

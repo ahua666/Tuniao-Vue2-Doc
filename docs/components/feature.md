@@ -28,7 +28,7 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
     },
     data() {
       return {
-        
+
       }
     }
   }
@@ -80,13 +80,13 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
 ```vue
 /* item.vue */
 <template>
-	<view class="item"></view>
+  <view class="item"></view>
 </template>
 
 <style scoped>
-	.item {
-		border: 1px solid red;
-	}
+  .item {
+    border: 1px solid red;
+  }
 </style>
 ```
 
@@ -94,13 +94,13 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
 
 ```vue
 <template>
-	<item></item>
+  <item></item>
 </template>
 
 <style scoped>
-::v-deep .item {
-	border: 1px solid blue;
-}
+  ::v-deep .item {
+    border: 1px solid blue;
+  }
 </style>
 ```
 
@@ -108,15 +108,15 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
 
 ```vue
 <template>
-	<view class="wrap">
-		<item></item>
-	</view>
+  <view class="wrap">
+    <item></item>
+  </view>
 </template>
 
 <style scoped>
-.wrap ::v-deep .item {
-	border: 1px solid blue;
-}
+  .wrap ::v-deep .item {
+    border: 1px solid blue;
+  }
 </style>
 ```
 
@@ -124,8 +124,8 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
 
 ```vue
 <template>
-	/* 在支付宝小程序，组件标签上的任何class和style都会被剔除，不会添加到组件内部的根元素中 */
-	<item style="border: 1px solid blue" class="item"></item>
+  /* 在支付宝小程序，组件标签上的任何class和style都会被剔除，不会添加到组件内部的根元素中 */
+  <item style="border: 1px solid blue" class="item"></item>
 </template>
 ```
 

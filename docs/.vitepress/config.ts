@@ -70,7 +70,13 @@ export default defineConfig({
                     {text: '注意事项', link: '/components/feature',},
                 ],
                 collapsed: true,
-            }],
+            }, {
+                text: '基础组件',
+                items: [
+                    {text: 'Icon 图标', link: '/components/icon',},],
+                collapsed: false,
+            },
+            ],
         },
     },
 });

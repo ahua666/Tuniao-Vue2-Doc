@@ -19,35 +19,35 @@ TuniaoUI组件的实现并不依赖全局样式，内置的一些类名，只是
 
 ```css
 .tn-text-xs {
-  font-size: 20rpx;
+    font-size: 20rpx;
 }
 
 .tn-text-sm {
-  font-size: 24rpx;
+    font-size: 24rpx;
 }
 
 .tn-text-md {
-  font-size: 28rpx;
+    font-size: 28rpx;
 }
 
 .tn-text-lg {
-  font-size: 32rpx;
+    font-size: 32rpx;
 }
 
 .tn-text-xl {
-  font-size: 36rpx;
+    font-size: 36rpx;
 }
 
 .tn-text-xxl {
-  font-size: 40rpx;
+    font-size: 40rpx;
 }
 
 .tn-text-xl-xxl {
-  font-size: 80rpx;
+    font-size: 80rpx;
 }
 
 .tn-text-xxl-xxl {
-  font-size: 120rpx;
+    font-size: 120rpx;
 }
 ```
 
@@ -56,19 +56,19 @@ TuniaoUI组件的实现并不依赖全局样式，内置的一些类名，只是
 ```css
 /* 全部大写 */
 .tn-text-upper {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 /* 首字母大写 */
 .tn-text-cap {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 /* 全部小写 */
 .tn-text-lower {
-  text-transform: lowercase;
+    text-transform: lowercase;
 }
 /* 加粗 */
 .tn-text-bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 ```
 
@@ -78,15 +78,15 @@ TuniaoUI组件的实现并不依赖全局样式，内置的一些类名，只是
 
 ```css
 .tn-text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .tn-text-left {
-	text-align: left;
+    text-align: left;
 }
 
 .tn-text-right {
-	text-align: right;
+    text-align: right;
 }
 ```
 
@@ -97,19 +97,19 @@ TuniaoUI组件的实现并不依赖全局样式，内置的一些类名，只是
 ```css
 /* 显示一行 */
 .tn-text-ellipsis {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 /* 显示两行 */
 .tn-text-ellipsis-2 {
-	display: -webkit-box;
-	overflow: hidden;
-	white-space: normal !important;
-	text-overflow: ellipsis;
-	word-wrap: break-word;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 ```
 
@@ -121,8 +121,8 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 
 ```css
 .tn-flex {
-  display: -webkit-flex;
-  display: flex;
+    display: -webkit-flex;
+    display: flex;
 }
 ```
 
@@ -131,11 +131,11 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 ```css
 /* 换行 */
 .tn-flex-wrap {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 /* 不换行 */
 .tn-flex-nowrap {
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 ```
 
@@ -144,19 +144,19 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 ```css
 /* 垂直布局 */
 .tn-flex-direction-column {
-  flex-direction: column;
+    flex-direction: column;
 }
 /* 水平布局 */
 .tn-flex-direction-row {
-  flex-direction: row;
+    flex-direction: row;
 }
 /* 反向垂直布局 */
 .tn-flex-direction-column-reverse {
-  flex-direction: column-reverse;
+    flex-direction: column-reverse;
 }
 /* 反向水平布局 */
 .tn-flex-direction-row-reverse {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 ```
 
@@ -164,19 +164,19 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 
 ```css
 .tn-flex-center {
-  align-self: center;
+    align-self: center;
 }
 
 .tn-flex-top {
-  align-self: flex-start;
+    align-self: flex-start;
 }
 
 .tn-flex-end {
-  align-self: flex-end;
+    align-self: flex-end;
 }
 
 .tn-flex-stretch {
-  align-self: stretch;
+    align-self: stretch;
 }
 ```
 
@@ -186,15 +186,15 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 
 ```css
 .tn-flex-col-center {
-  align-items: center;
+    align-items: center;
 }
 
 .tn-flex-col-top {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 .tn-flex-col-bottom {
-  align-items: flex-end;
+    align-items: flex-end;
 }
 ```
 
@@ -204,23 +204,23 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 
 ```css
 .tn-flex-row-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .tn-flex-row-left {
-  justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 .tn-flex-row-right {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .tn-flex-row-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .tn-flex-row-around {
-  justify-content: space-around;
+    justify-content: space-around;
 }
 ```
 
@@ -230,11 +230,11 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 
 ```css
 .tn-flex-1 {
-  flex: 1
+    flex: 1
 }
 ......
 .tn-flex-12 {
-  flex: 12
+    flex: 12
 }
 ```
 
@@ -244,27 +244,27 @@ TuniaoUI定义了一个常用的类，命名为`tn-flex`
 
 ```css
 .tn-flex-basic-xs {
-  flex-basis: 20%;
+    flex-basis: 20%;
 }
 
 .tn-flex-basic-sm {
-  flex-basis: 40%;
+    flex-basis: 40%;
 }
 
 .tn-flex-basic-md {
-  flex-basis: 50%;
+    flex-basis: 50%;
 }
 
 .tn-flex-basic-lg {
-  flex-basis: 60%;
+    flex-basis: 60%;
 }
 
 .tn-flex-basic-xl {
-  flex-basis: 80%;
+    flex-basis: 80%;
 }
 
 .tn-flex-basic-full {
-  flex-basis: 100%;
+    flex-basis: 100%;
 }
 ```
 
@@ -341,7 +341,7 @@ TuniaoUI为了方便用户，提供一套边框类。
 
 ```css
 .tn-hover {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 ```
 
@@ -349,11 +349,11 @@ TuniaoUI为了方便用户，提供一套边框类。
 
 ```css
 .tn-round {
-	border-radius: 5000rpx !important;
+    border-radius: 5000rpx !important;
 }
 
 .tn-radius {
-	border-radius: 6rpx;
+    border-radius: 6rpx;
 }
 ```
 
@@ -371,11 +371,11 @@ textarea,
 label,
 navigator,
 image {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 button::after {
-	border: none;
+    border: none;
 }
 ```
 

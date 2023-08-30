@@ -14,7 +14,7 @@
 使用下载的方式安装，能更加方便的阅读代码，但是每次升级都需要重新下载并且覆盖tuniao-ui文件夹。
 
 - 在uni-app插件市场搜索TuniaoUI，点击页面右上角选择`使用HubilderX 导入插件` 或者 `下载插件ZIP`。
-- 下载TuniaoUI的示例项目，将其根目录的tuniao-ui文件夹复制到您的项目的根目录，然后对项目进行[配置](setting.md)。
+- 下载TuniaoUI的示例项目，将其根目录的tuniao-ui文件夹复制到您的项目的根目录，然后对项目进行[配置](setting.md#配置步骤)。
 
 [下载地址](https://gitee.com/TSpecific/tuniao-ui)
 
