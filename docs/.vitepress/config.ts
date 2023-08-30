@@ -108,9 +108,26 @@ export default defineConfig({
                 ],
                 collapsed: false,
             }, {
+                text: '数据组件',
+                items: [
+                    {text: 'IndexList索引列表', link: '/components/list',},
+                    {text: 'LineProgress 线形进度条', link: '/components/lineProgress',},
+                    {text: 'CircleProgress 圆形进度条', link: '/components/circle_progress',},
+                    {text: 'CountDown 倒计时', link: '/components/countDown',},
+                    {text: 'CountTo 数字跳转', link: '/components/countTo',},
+                    {text: 'CountScroll 数字滚动', link: '/components/count-scroll',},
+                ],
+                collapsed: false,
+            },{
                 text: '反馈组件',
                 items: [
+                    {text: 'Tips 警告消息', link: '/components/tips',},
                     {text: 'ActionSheet 操作菜单', link: '/components/actionSheet',},
+                    {text: 'Toast 消息提示', link: '/components/toast',},
+                    {text: 'NoticeBar 通知栏', link: '/components/noticeBar',},
+                    {text: 'Collapse 折叠面板', link: '/components/collapse',},
+                    {text: 'Popup 弹出层', link: '/components/popup',},
+                    {text: 'Modal 模态框', link: '/components/modal',},
                 ],
                 collapsed: false,
             },{
@@ -126,9 +143,22 @@ export default defineConfig({
                 ],
                 collapsed: false,
             },{
+                text: '导航组件',
+                items: [
+                    {text: 'Tabbar 底部导航', link: '/components/tabbar',},
+                    {text: 'NavBar 自定义顶部导航栏', link: '/components/navbar',},
+                    {text: 'Tabs 标签选项卡', link: '/components/tabs',},
+                    {text: 'TabsSwiper 全屏选项卡', link: '/components/tabs_swiper',},
+                    {text: 'Subsection 分段器', link: '/components/subsection',},
+                    {text: 'Empty 内容为空', link: '/components/empty',},
+                    {text: 'GoodsNav 商品导航', link: '/components/goodsNav',},
+                ],
+                collapsed: false,
+            },{
                 text: '其他组件',
                 items: [
                     {text: 'CodeInput 验证码输入', link: '/components/codeInput',},
+                    {text: 'LoadMore 加载更多', link: '/components/loadMore',},
                 ],
                 collapsed: false,
             },
