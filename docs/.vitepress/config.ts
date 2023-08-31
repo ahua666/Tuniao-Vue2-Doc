@@ -15,7 +15,10 @@ export default defineConfig({
         [
             'script', // js 文件
             { src: 'https://cdn.staticfile.org/twikoo/1.6.17/twikoo.all.min.js' }
-        ]
+        ],[
+            'script', // js 文件
+            { src: '/js/Star.js' }
+        ],
     ],
     lastUpdated: true, //以git提交的时间为更新时间
     themeConfig: {
