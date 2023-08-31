@@ -61,7 +61,7 @@
     .card {
 		height: 394px;
 		width: 100%;
-		background: #fff;
+		background: var(--vp-resource-card-bg);
 		border: 1px solid #eaeefb;
 		border-radius: 5px;
 		box-sizing: border-box;
@@ -85,7 +85,7 @@
 	.card h3 {
 		margin: 0 0 10px;
 		font-size: 18px;
-		color: #1f2f3d;
+		color: var(--vp-resource-card-h3);
 		font-weight: 400;
 		height: 22px
 	}
