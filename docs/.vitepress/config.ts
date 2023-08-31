@@ -33,16 +33,19 @@ export default defineConfig({
             {text: '指南', link: '/guide/demo'},
             {text: '组件', link: '/components/install'},
             {text: '模板', link: '/theme/intro'},
-            {text: '资源', link: ''},
+            {text: '资源', link: '/components/resource'},
             {text: '社区', link: ''},
             {text: '作品', link: ''},
             {text: '团队', link: '/team/team'},
+            // {text: '图标', link: ''},
+            // {text: 'Vue3', link: ''},
+            // {text: 'Gitee', link: ''},
             {
                 text: '资源',
                 items: [
-                    {text: 'Item A', link: '/'},
-                    {text: 'Item B', link: '/'},
-                    {text: 'Item C', link: '/'}
+                    {text: '图标', link: 'https://icon.ahuaaa.cn/#/'},
+                    {text: 'Vue3', link: 'https://vue3.tuniaokj.com/'},
+                    {text: 'Gitee', link: 'https://gitee.com/TSpecific/tuniao-ui'}
                 ]
             }
         ],
@@ -174,7 +177,7 @@ export default defineConfig({
                 text: '炫酷模板',
                 collapsed: false,
                 items: [
-                    
+
                   {text: '火箭登录', link: '/theme/login1'},
                   {text: '粒子登录', link: '/theme/login2'},
                   {text: '背景登录', link: '/theme/login3'},
