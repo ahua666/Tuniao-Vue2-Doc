@@ -11,6 +11,12 @@ export default defineConfig({
     markdown: {
         lineNumbers: true, //显示代码行数
     },
+    head: [
+        [
+            'script', // js 文件
+            { src: 'https://cdn.staticfile.org/twikoo/1.6.17/twikoo.all.min.js' }
+        ]
+    ],
     lastUpdated: true, //以git提交的时间为更新时间
     themeConfig: {
         // author: 'Star',
@@ -34,7 +40,7 @@ export default defineConfig({
             {text: '组件', link: '/components/install'},
             {text: '模板', link: '/theme/intro'},
             {text: '资源', link: '/components/resource'},
-            {text: '社区', link: ''},
+            {text: '社区', link: '/Community/Community'},
             {text: '作品', link: ''},
             {text: '团队', link: '/team/team'},
             {text: 'Vue3', link: 'https://vue3.tuniaokj.com/'},
@@ -90,7 +96,7 @@ export default defineConfig({
                     {text: 'SwipeAction 滑动单元格', link: '/components/swipeAction',},
                 ],
                 collapsed: false,
-            },{
+            }, {
                 text: '表单组件',
                 items: [
                     {text: 'Form 表单', link: '/components/forms',},
@@ -121,7 +127,7 @@ export default defineConfig({
                     {text: 'CountScroll 数字滚动', link: '/components/count-scroll',},
                 ],
                 collapsed: false,
-            },{
+            }, {
                 text: '反馈组件',
                 items: [
                     {text: 'Tips 警告消息', link: '/components/tips',},
@@ -133,7 +139,7 @@ export default defineConfig({
                     {text: 'Modal 模态框', link: '/components/modal',},
                 ],
                 collapsed: false,
-            },{
+            }, {
                 text: '布局组件',
                 items: [
                     {text: 'List 列表容器', link: '/components/list_view',},
@@ -145,7 +151,7 @@ export default defineConfig({
                     {text: 'TimeLine 时间轴', link: '/components/time_line',},
                 ],
                 collapsed: false,
-            },{
+            }, {
                 text: '导航组件',
                 items: [
                     {text: 'Tabbar 底部导航', link: '/components/tabbar',},
@@ -157,7 +163,7 @@ export default defineConfig({
                     {text: 'GoodsNav 商品导航', link: '/components/goodsNav',},
                 ],
                 collapsed: false,
-            },{
+            }, {
                 text: '其他组件',
                 items: [
                     {text: 'CodeInput 验证码输入', link: '/components/codeInput',},
@@ -170,94 +176,94 @@ export default defineConfig({
                 text: '起步',
                 collapsed: false,
                 items: [
-                  {text: '介绍', link: '/theme/intro'}
+                    {text: '介绍', link: '/theme/intro'}
                 ]
-              },
+            },
                 {
-                text: '炫酷模板',
-                collapsed: false,
-                items: [
+                    text: '炫酷模板',
+                    collapsed: false,
+                    items: [
 
-                  {text: '火箭登录', link: '/theme/login1'},
-                  {text: '粒子登录', link: '/theme/login2'},
-                  {text: '背景登录', link: '/theme/login3'},
-                  {text: '简约登录', link: '/theme/login4'},
-                  {text: '夏天个人', link: '/theme/my1'},
-                  {text: '图鸟个人', link: '/theme/my2'},
-                  {text: '外卖个人', link: '/theme/my3'},
-                  {text: '高端个人', link: '/theme/my4'},
-                  {text: '音乐首页', link: '/theme/music'},
-                  {text: '课程首页', link: '/theme/course'},
-                  {text: '设计首页', link: '/theme/design'},
-                  {text: '招聘首页', link: '/theme/job'},
-                  {text: '投屏首页', link: '/theme/screen'},
-                  {text: '壁纸首页', link: '/theme/wallpaper'},
-                  {text: '健康码', link: '/theme/qrcode'},
-                  {text: '关于我们', link: '/theme/about'},
-                  {text: '全新出发', link: '/theme/outset'},
-                  {text: '资讯左图', link: '/theme/article1'},
-                  {text: '资讯右图', link: '/theme/article2'},
-                  {text: '全屏轮播', link: '/theme/fullpage'},
-                  {text: '时钟', link: '/theme/clock'},
-                  {text: '加载动画', link: '/theme/AnimateLoading'},
-                  {text: '流星悬浮', link: '/theme/suspended'},
-                  {text: '随机粒子', link: '/theme/particle'},
-                  {text: '相册图集', link: '/theme/photo'},
-                  {text: '镂空效果', link: '/theme/hollow'},
-                  {text: '泡泡飘出', link: '/theme/bubble'},
-                  {text: 'CSS波浪', link: '/theme/wave'},
-                  {text: '3D全景', link: '/theme/pano'}
-                ]
-              },
+                        {text: '火箭登录', link: '/theme/login1'},
+                        {text: '粒子登录', link: '/theme/login2'},
+                        {text: '背景登录', link: '/theme/login3'},
+                        {text: '简约登录', link: '/theme/login4'},
+                        {text: '夏天个人', link: '/theme/my1'},
+                        {text: '图鸟个人', link: '/theme/my2'},
+                        {text: '外卖个人', link: '/theme/my3'},
+                        {text: '高端个人', link: '/theme/my4'},
+                        {text: '音乐首页', link: '/theme/music'},
+                        {text: '课程首页', link: '/theme/course'},
+                        {text: '设计首页', link: '/theme/design'},
+                        {text: '招聘首页', link: '/theme/job'},
+                        {text: '投屏首页', link: '/theme/screen'},
+                        {text: '壁纸首页', link: '/theme/wallpaper'},
+                        {text: '健康码', link: '/theme/qrcode'},
+                        {text: '关于我们', link: '/theme/about'},
+                        {text: '全新出发', link: '/theme/outset'},
+                        {text: '资讯左图', link: '/theme/article1'},
+                        {text: '资讯右图', link: '/theme/article2'},
+                        {text: '全屏轮播', link: '/theme/fullpage'},
+                        {text: '时钟', link: '/theme/clock'},
+                        {text: '加载动画', link: '/theme/AnimateLoading'},
+                        {text: '流星悬浮', link: '/theme/suspended'},
+                        {text: '随机粒子', link: '/theme/particle'},
+                        {text: '相册图集', link: '/theme/photo'},
+                        {text: '镂空效果', link: '/theme/hollow'},
+                        {text: '泡泡飘出', link: '/theme/bubble'},
+                        {text: 'CSS波浪', link: '/theme/wave'},
+                        {text: '3D全景', link: '/theme/pano'}
+                    ]
+                },
                 {
-                  text: '会员模板',
-                  collapsed: false,
-                  items: [
-                    {text: '操作指引', link: '/theme/vip/guide'},
-                    {text: '首次指引', link: '/theme/vip/start'},
-                    {text: '圈子首页', link: '/theme/vip/blog'},
-                    {text: '社交圈子', link: '/theme/vip/socialize'},
-                    {text: '简约圈子(旧)', link: '/themevip//circle'},
-                    {text: '圈子个人', link: '/theme/vip/myblog'},
-                    {text: '消息通知', link: '/theme/vip/message'},
-                    {text: '商品优选', link: '/theme/vip/prefer'},
-                    {text: '优选详情', link: '/theme/vip/product'},
-                    {text: '博客博主', link: '/theme/vip/blogger'},
-                    {text: '炫酷功能', link: '/theme/vip/cool'},
-                    {text: '友情链接', link: '/theme/vip/link'},
-                    {text: '祝福页面', link: '/theme/vip/bless'},
-                    {text: '图鸟首页', link: '/theme/vip/tuniao'},
-                    {text: '奶茶首页', link: '/theme/vip/tea'},
-                    {text: '阅读首页', link: '/theme/vip/read'},
-                    {text: '月亮首页', link: '/theme/vip/moon'},
-                    {text: '计划首页', link: '/theme/vip/plan'},
-                    {text: '新年首页', link: '/theme/vip/year'},
-                    {text: '电影首页', link: '/theme/vip/movie'},
-                    {text: '食物首页', link: '/theme/vip/food'},
-                    {text: '拟态首页', link: '/theme/vip/mimicry'},
-                    {text: '充电首页', link: '/theme/vip/power'},
-                    {text: '卡片首页', link: '/theme/vip/card'},
-                    {text: '健康首页', link: '/theme/vip/health'},
-                    {text: '全景首页', link: '/theme/vip/panoramic'},
-                    {text: 'uCharts首页', link: '/theme/vip/ucharts'},
-                    {text: '店铺商品', link: '/theme/vip/store'},
-                    {text: '商品订单', link: '/theme/vip/order'},
-                    {text: '商品分类', link: '/theme/vip/classify'},
-                    {text: '积分活动', link: '/theme/vip/money'},
-                    {text: 'Drag长按拖拽', link: '/theme/vip/basic-drag'},
-                    {text: '图片上传长按拖拽', link: '/theme/vip/upload-image-drag'},
-                    {text: 'Cropper图片裁剪', link: '/theme/vip/cropper'},
-                    {text: 'StackSwiper堆叠轮播', link: '/theme/vip/stack-swiper'},
-                    {text: '重力首页', link: '/theme/vip/page1'},
-                    {text: '自定义下拉刷新', link: '/theme/vip/scroll-view'},
-                    {text: '级联选择', link: '/theme/vip/cascade-selectio'},
-                    {text: '瀑布流', link: '/theme/vip/waterfall'},
-                    {text: '树形菜单', link: '/theme/vip/tree-view'},
-                    {text: '表格', link: '/theme/vip/table'},
-                    {text: '图鸟轮播(实验)', link: '/theme/vip/custom-swiper'},
-                    {text: '短视频', link: '/theme/vip/short-video'},
-                    {text: '外卖模板', link: '/theme/vip/walking-route'}
-                  ]
+                    text: '会员模板',
+                    collapsed: false,
+                    items: [
+                        {text: '操作指引', link: '/theme/vip/guide'},
+                        {text: '首次指引', link: '/theme/vip/start'},
+                        {text: '圈子首页', link: '/theme/vip/blog'},
+                        {text: '社交圈子', link: '/theme/vip/socialize'},
+                        {text: '简约圈子(旧)', link: '/themevip//circle'},
+                        {text: '圈子个人', link: '/theme/vip/myblog'},
+                        {text: '消息通知', link: '/theme/vip/message'},
+                        {text: '商品优选', link: '/theme/vip/prefer'},
+                        {text: '优选详情', link: '/theme/vip/product'},
+                        {text: '博客博主', link: '/theme/vip/blogger'},
+                        {text: '炫酷功能', link: '/theme/vip/cool'},
+                        {text: '友情链接', link: '/theme/vip/link'},
+                        {text: '祝福页面', link: '/theme/vip/bless'},
+                        {text: '图鸟首页', link: '/theme/vip/tuniao'},
+                        {text: '奶茶首页', link: '/theme/vip/tea'},
+                        {text: '阅读首页', link: '/theme/vip/read'},
+                        {text: '月亮首页', link: '/theme/vip/moon'},
+                        {text: '计划首页', link: '/theme/vip/plan'},
+                        {text: '新年首页', link: '/theme/vip/year'},
+                        {text: '电影首页', link: '/theme/vip/movie'},
+                        {text: '食物首页', link: '/theme/vip/food'},
+                        {text: '拟态首页', link: '/theme/vip/mimicry'},
+                        {text: '充电首页', link: '/theme/vip/power'},
+                        {text: '卡片首页', link: '/theme/vip/card'},
+                        {text: '健康首页', link: '/theme/vip/health'},
+                        {text: '全景首页', link: '/theme/vip/panoramic'},
+                        {text: 'uCharts首页', link: '/theme/vip/ucharts'},
+                        {text: '店铺商品', link: '/theme/vip/store'},
+                        {text: '商品订单', link: '/theme/vip/order'},
+                        {text: '商品分类', link: '/theme/vip/classify'},
+                        {text: '积分活动', link: '/theme/vip/money'},
+                        {text: 'Drag长按拖拽', link: '/theme/vip/basic-drag'},
+                        {text: '图片上传长按拖拽', link: '/theme/vip/upload-image-drag'},
+                        {text: 'Cropper图片裁剪', link: '/theme/vip/cropper'},
+                        {text: 'StackSwiper堆叠轮播', link: '/theme/vip/stack-swiper'},
+                        {text: '重力首页', link: '/theme/vip/page1'},
+                        {text: '自定义下拉刷新', link: '/theme/vip/scroll-view'},
+                        {text: '级联选择', link: '/theme/vip/cascade-selectio'},
+                        {text: '瀑布流', link: '/theme/vip/waterfall'},
+                        {text: '树形菜单', link: '/theme/vip/tree-view'},
+                        {text: '表格', link: '/theme/vip/table'},
+                        {text: '图鸟轮播(实验)', link: '/theme/vip/custom-swiper'},
+                        {text: '短视频', link: '/theme/vip/short-video'},
+                        {text: '外卖模板', link: '/theme/vip/walking-route'}
+                    ]
                 }]
         },
     },
