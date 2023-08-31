@@ -21,7 +21,7 @@ export default defineConfig({
             next: '下一篇'
         },
         footer: {
-            copyright: 'Copyright © 2022-present Evan You,Made with ❤️ by Tuniao UI',
+            copyright: 'Copyright © 2022-present Tuniao UI',
             message: "Released under the MIT License.",
 
         },
