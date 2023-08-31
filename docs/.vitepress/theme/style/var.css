@@ -43,11 +43,17 @@
   --vp-custom-block-tip-border: #646cff;
   --vp-custom-block-tip-text: #4164cc;
   --vp-custom-block-tip-bg: #646cff14;
+  --vp-resource-card-bg: #fff;
+
+  --vp-resource-card-h3: #1f2f3d;
 }
 .dark{
   --vp-custom-block-tip-border: #9fa4ff;
   --vp-custom-block-tip-text: #799bff;
   --vp-custom-block-tip-bg: #2a35ff14;
+  --vp-resource-card-bg: #fff0;
+  --vp-resource-card-h3: #fff;
+
 }
 .docs-cn-github-release-tag {
   font-size: 14px;
