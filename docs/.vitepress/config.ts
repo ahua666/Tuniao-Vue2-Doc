@@ -18,6 +18,13 @@ export default defineConfig({
         ],[
             'script', // js 文件
             { src: '/js/Star.js' }
+        ],[
+            'meta',
+            { property: "og:description", content: "图鸟UI-是图鸟科技打造的开发者全成长周期开源平台，围绕酷炫、效率、合作、成就、变现,五大用户价值布局平台能力，全力服务开发者，旨在成为开发者的好朋友。图鸟历经多轮打磨雕刻，集海量高品质图鸟模板、实时在线预览、多元化场景模板、轻便好学、易上手等多重优势于一身的开发神器，更自带免费开源可商用属性，为企业集团、公司团队、前端后端开发者、运营大佬、社交达人、学生小白提供了一个零成本的在线开发平台和资源库。" }
+        ],
+        [
+            'meta',
+            { name: "keywords", content: "图鸟科技，图鸟UI，UI设计，酷炫模板，酷炫前端，插件市场，uniapp，uni-app，小程序，一站式开发，混合开发，跨平台开发，微信小程序，组件，前端模板，页面模板，项目模板，HBuilderX模板，原型制作，视觉设计，程序开发，运营维护，前端组件，项目模版，官网模版，全套模版，全套源码，免费下载" }
         ]
     ],
     lastUpdated: true, //以git提交的时间为更新时间
@@ -67,6 +74,13 @@ export default defineConfig({
                         {text: '效果演示', link: '/guide/demo'},
                         {text: '扩展自定义图标库', link: '/guide/customIcon'},
                         {text: '注意事项', link: '/guide/note',}
+                    ],
+                    collapsed: false,
+                },
+                {
+                    text: '填坑技巧',
+                    items: [
+                        {text: '自定义tabbar', link: 'https://mp.weixin.qq.com/s/tiiwQlB9Z1ItmxBCYQV-og'}
                     ],
                     collapsed: false,
                 }
