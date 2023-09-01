@@ -54,7 +54,8 @@ export default defineConfig({
                 text: '资源',
                 items: [
                     {text: '图标', link: 'https://icon.ahuaaa.cn/#/'},
-                    {text: 'Gitee', link: 'https://gitee.com/TSpecific/tuniao-ui'}
+                    {text: 'Gitee', link: 'https://gitee.com/TSpecific/tuniao-ui'},
+                    {text: '插件市场', link: 'https://ext.dcloud.net.cn/publisher?id=356088'}
                 ]
             }
         ],
