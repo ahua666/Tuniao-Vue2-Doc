@@ -136,7 +136,7 @@ a {
 }
 
 .star-dialog {
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 .member-item {
