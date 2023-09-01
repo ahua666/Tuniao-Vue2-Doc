@@ -13,7 +13,7 @@ const members = [
   {
     avatar: '/common/kewohuixiang.jpg',
     name: '可我会像',
-    title: '开发者 · 广东 广州',
+    title: '全栈开发 · 广东 广州',
     desc:'职责：负责产品经理、前端开发等工作</br></br>介绍：图鸟背锅侠',
     links: [
       { icon: {
