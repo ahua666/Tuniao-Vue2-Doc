@@ -68,13 +68,13 @@
           <div style="margin-top: 20px">{{ dialogModel.desc }}</div>
           <div style="margin-top: 20px">
             <a v-if="dialogModel.uniapp" :href="dialogModel.uniapp" target="_blank" @click.stop><span
-                style="color: #1d1e22">开源地址:</span>{{ dialogModel.uniapp }} </a>
+                style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.uniapp }} </a>
             <a v-if="dialogModel.github" :href="dialogModel.github" target="_blank" @click.stop><span
-                style="color: #1d1e22">开源地址:</span>{{ dialogModel.github }}</a>
+                style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.github }}</a>
             <a v-if="dialogModel.gitee" :href="dialogModel.gitee" target="_blank" @click.stop><span
-                style="color: #1d1e22">开源地址:</span>{{ dialogModel.gitee }}</a>
+                style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.gitee }}</a>
             <a v-if="dialogModel.link" :href="dialogModel.link" target="_blank" @click.stop><span
-                style="color: #1d1e22">相关地址:</span>{{ dialogModel.link }}</a>
+                style="color: var(--vp--works-dialog-link-color)">相关地址:</span>{{ dialogModel.link }}</a>
           </div>
 
           <div style="margin-top:35px ">
