@@ -86,7 +86,7 @@ export default defineConfig({
             }, {
                 text: '基础组件',
                 items: [
-                    // {text: 'Color 色彩', link: '/components/color'},//颜色显示暂时有点问题 先不显示
+                    {text: 'Color 色彩', link: '/components/color'},
                     {text: 'Icon 图标', link: '/components/icon',},
                     {text: 'Button 按钮', link: '/components/button',},
                     {text: 'Flex布局', link: '/components/layout',},
