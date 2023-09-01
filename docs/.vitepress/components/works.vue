@@ -115,11 +115,14 @@
 }
 
 h3 {
-  //text-align: center; font-size: 20px; font-weight: 600; margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 h4 {
-  //text-align: center; font-size: 17px; font-weight: 400;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 a {
