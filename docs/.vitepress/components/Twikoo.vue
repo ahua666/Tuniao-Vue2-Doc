@@ -206,4 +206,7 @@ export default {
     margin: 0 auto;
   }
 }
+.el-button--small {
+  height: auto !important;
+}
 </style>
