@@ -31,7 +31,7 @@ export default defineConfig({
         },
         footer: {
             copyright: 'Copyright © 2022-present Tuniao UI',
-            message: "Released under the MIT License.",
+            // message: "Released under the MIT License.",
 
         },
         socialLinks: [     // 信息栏展示社交信息

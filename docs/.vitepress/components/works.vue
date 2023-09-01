@@ -378,6 +378,45 @@ const WorkList = ref([{
   uniapp: 'https://ext.dcloud.net.cn/plugin?id=11115',
   link: ''
 }, {
+  name: '比比轻壁纸',
+  desc: '基于微信Skyline渲染框架+图鸟Vue3组件开发的适合个人、学生、自媒体使用的清爽型壁纸下载小程序',
+  indexImg: 'https://img.ahuaaa.cn/img/20230901161455.png',
+  img: [
+    'https://img.ahuaaa.cn/img/20230901161511.png'
+  ],
+  tag: ['工具','图片'],
+  openSource: false,
+  github: '',
+  gitee: '',
+  uniapp: '',
+  link: 'https://mp.weixin.qq.com/s/NycGWUTHhURJ-SUHq0WE8Q'
+},{
+  name: 'Coisini去水印',
+  desc: '免费去抖音、小红书、微博等水印、无广告、无限制，咱就是主打一个免费。',
+  indexImg: 'https://img.ahuaaa.cn/img/20230901161322.png',
+  img: [
+    'https://img.ahuaaa.cn/img/20230901161402.png'
+  ],
+  tag: ['小程序'],
+  openSource: false,
+  github: '',
+  gitee: '',
+  uniapp: '',
+  link: ''
+},{
+  name: '电子鲁班',
+  desc: '手持弹幕|AI一键抠图|尺子|MD5加密|时间戳转换|电子印章|图片添加水印|老照片修复|花体字转换|图片压缩|邮编查询|指南针|水平仪',
+  indexImg: 'https://img.ahuaaa.cn/img/20230901161122.png',
+  img: [
+    'https://img.ahuaaa.cn/img/20230901161145.png'
+  ],
+  tag: ['工具'],
+  openSource: false,
+  github: '',
+  gitee: '',
+  uniapp: '',
+  link: ''
+},{
   name: '牛基圈晴雨表',
   desc: '您身边的投资小助手，实时查看基金预估涨幅收益！',
   indexImg: 'https://img.ahuaaa.cn/img/20230707144043.png',
