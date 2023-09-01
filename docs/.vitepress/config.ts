@@ -23,6 +23,10 @@ export default defineConfig({
     lastUpdated: true, //以git提交的时间为更新时间
     themeConfig: {
         // author: 'Star',
+        editLink: {
+            pattern: 'https://github.com/ahua666/Tuniao-Vue2-Doc/edit/master/docs/:path',
+            text: '在Github上编辑此页'
+        },
         lastUpdatedText: '上次更新时间', //最后更新时间文本
         // logo: "/avatar.png", //导航栏左侧头像
         docFooter: { //上下篇文本
