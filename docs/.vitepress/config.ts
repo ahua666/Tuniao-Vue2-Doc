@@ -44,7 +44,7 @@ export default defineConfig({
             {text: '模板', link: '/theme/intro'},
             {text: '资源', link: '/components/resource'},
             {text: '社区', link: '/Community/Community'},
-            {text: '作品', link: ''},
+            {text: '作品', link: '/works/works'},
             {text: '团队', link: '/team/team'},
             {text: 'Vue3', link: 'https://vue3.tuniaokj.com/'},
             // {text: '图标', link: ''},

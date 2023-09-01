@@ -135,21 +135,75 @@ export default {
   border-radius: 10px;
   /*box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);*/
   /*box-shadow: 0 4px 25px 0 rgba(4, 40, 60, 0.18);*/
-  width: 1250px;
+  width: 1350px;
   margin: 0 auto;
 
+}
+
+@media (max-width: 1920px) {
+  .twikoo{
+    width: 1350px;
+    margin: 0 auto;
+  }
+  .comm-img{
+    width: 1250px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1200px) {
   .twikoo .tk-comments {
     margin: 50px;
   }
+  .twikoo{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .comm-img{
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
 
+@media (max-width: 992px) {
+  .twikoo .tk-comments {
+    margin: 5px;
+  }
+  .twikoo{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .comm-img{
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .twikoo .tk-comments {
+    margin: 5px;
+  }
+  .twikoo{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .comm-img{
+    width: 600px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 500px) {
   .twikoo .tk-comments {
     margin: 5px;
+  }
+  .twikoo{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .comm-img{
+    width: 100%;
+    margin: 0 auto;
   }
 }
 </style>

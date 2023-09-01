@@ -46,6 +46,9 @@
   --vp-resource-card-bg: #fff;
 
   --vp-resource-card-h3: #1f2f3d;
+/*  作品左上角移动光颜色*/
+  --vp--works-card-light-color-one: rgba(255, 255, 255, 0);
+  --vp--works-card-light-color-two: rgba(255, 255, 255, 0.5);
 }
 .dark{
   --vp-custom-block-tip-border: #9fa4ff;
@@ -53,7 +56,8 @@
   --vp-custom-block-tip-bg: #2a35ff14;
   --vp-resource-card-bg: #fff0;
   --vp-resource-card-h3: #fff;
-
+  --vp--works-card-light-color-one: rgba(29, 30, 31, 0);
+  --vp--works-card-light-color-two: rgba(29, 30, 31, 0.1);
 }
 .docs-cn-github-release-tag {
   font-size: 14px;

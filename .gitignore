@@ -19,3 +19,4 @@ docs/.vitepress/dist/
 
 
 package-lock.json
+/docs/.vitepress/cache/*
