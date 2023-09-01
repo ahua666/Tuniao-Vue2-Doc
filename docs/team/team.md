@@ -38,7 +38,10 @@ const members = [
     avatar: '/common/Jaylen.jpg',
     name: 'Jaylen',
     title: '全栈开发 · 广东 广州',
-    desc:'职责：负责TuniaoUI技术架构与实施，组织架构设计与升级优化等工作</br></br>介绍：丰富的嵌入式、C端开发经验。Java、PHP、C、vue2/3、uniapp等'
+    desc:'职责：负责TuniaoUI技术架构与实施，组织架构设计与升级优化等工作</br></br>介绍：丰富的嵌入式、C端开发经验。Java、PHP、C、vue2/3、uniapp等',
+    links: [
+        { icon: "github", link: "https://github.com/HighSpecific" }
+    ]
   },{
     avatar: '/common/yuanyuan.jpg',
     name: '圆圆',
