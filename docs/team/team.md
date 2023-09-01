@@ -13,16 +13,19 @@ const members = [
   {
     avatar: '/kewohuixiang.jpg',
     name: '可我会像',
-    title: '开发者',
-    desc:'图鸟背锅侠'
+    title: '开发者 · 广东 广州',
+    desc:'职责：负责产品经理、前端开发等工作</br></br>介绍：图鸟背锅侠',
+    links: [
+      { icon: 'github', link: 'https://gitee.com/kewohuixiang' },
+    ]
   },{
     avatar: 'https://q1.qlogo.cn/g?b=qq&nk=3156027735&s=640',
     name: 'Star',
-    title: '开发者',
+    title: '全栈开发 · 湖南 常德',
     links: [
       { icon: 'github', link: 'https://github.com/ahua666' },
     ],
-    desc:'全栈开发'
+    desc:'职责：负责TuniaoUI核心组件研发，维护与升级，文档维护等工作</br></br>介绍：node.js、SpringBoot、C#、vue2、vue3、uniapp、flutter等'
   },{
     avatar: '/Jaylen.jpg',
     name: 'Jaylen',
