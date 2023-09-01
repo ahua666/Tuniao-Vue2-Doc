@@ -131,10 +131,11 @@
   <div v-if="props.type==5">
     <div class="tn-color__wrap" style="margin-top: 20px">
       <template v-for="(item, index) in colorList.slice(0,16)">
-        <div style="padding: 0px" class="tn-color__item" v-for="(item2, index2) in ['light']">
-          <div style="padding: 0px" class="tn-color__item" :class="['tn-main-gradient-' +item.color +'--' + item2]" :key="index">
+        <div v-for="(item2, index2) in ['light']" class="tn-color__item" style="padding: 0px">
+          <div :key="index" :class="['tn-main-gradient-' +item.color +'--' + item2]" class="tn-color__item"
+               style="padding: 0px">
             <div class="tn-color__item--main">
-              <div style="text-align: center;line-height: 110px">{{`tn-main-gradient-${item.color}--${item2}`}}
+              <div style="text-align: center;line-height: 110px">{{ `tn-main-gradient-${item.color}--${item2}` }}
               </div>
             </div>
           </div>
@@ -146,10 +147,11 @@
   <div v-if="props.type==6">
     <div class="tn-color__wrap" style="margin-top: 20px">
       <template v-for="(item, index) in colorList.slice(0,16)">
-        <div style="padding: 0px" class="tn-color__item" v-for="(item2, index2) in ['single']">
-          <div style="padding: 0px" class="tn-color__item" :class="['tn-main-gradient-' +item.color +'--' + item2]" :key="index">
+        <div v-for="(item2, index2) in ['single']" class="tn-color__item" style="padding: 0px">
+          <div :class="['tn-main-gradient-' +item.color +'--' + item2]" class="tn-color__item"
+               style="padding: 0px">
             <div class="tn-color__item--main">
-              <div style="text-align: center;line-height: 110px">{{`tn-main-gradient-${item.color}--${item2}`}}
+              <div style="text-align: center;line-height: 110px">{{ `tn-main-gradient-${item.color}--${item2}` }}
               </div>
             </div>
           </div>
@@ -161,10 +163,10 @@
   </div>
   <div v-if="props.type==7">
     <div class="tn-color__wrap">
-      <template v-for="(item, index) in 16">
-        <div class="tn-color__item" :class="['tn-cool-bg-color-' + item]" :key="index">
+      <template v-for="(item, index) in 16" :key="index">
+        <div :class="['tn-cool-bg-color-' + item]" class="tn-color__item">
           <div class="tn-color__item--main">
-            <div style="margin: 0 auto;text-align: center;margin-top: 42px;">{{'tn-cool-bg-color-'+item}}
+            <div style="margin: 0 auto;text-align: center;margin-top: 42px;">{{ 'tn-cool-bg-color-' + item }}
             </div>
           </div>
         </div>
