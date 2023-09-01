@@ -1,47 +1,29 @@
 {
-  "hash": "ae29302f",
-  "browserHash": "5b081fab",
+  "hash": "40f405c7",
+  "browserHash": "62607ce1",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "6cd57bc0",
+      "fileHash": "8c1d1a4d",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "4e652ddf",
+      "fileHash": "df429183",
       "needsInterop": false
     },
     "element-plus": {
       "src": "../../../../node_modules/element-plus/es/index.mjs",
       "file": "element-plus.js",
-      "fileHash": "88d9cb66",
-      "needsInterop": false
-    },
-    "@element-plus/icons-vue": {
-      "src": "../../../../node_modules/@element-plus/icons-vue/dist/index.js",
-      "file": "@element-plus_icons-vue.js",
-      "fileHash": "007d1b17",
-      "needsInterop": false
-    },
-    "@vue/reactivity": {
-      "src": "../../../../node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
-      "file": "@vue_reactivity.js",
-      "fileHash": "892621eb",
+      "fileHash": "0e14bfed",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-IVEYHJK6": {
-      "file": "chunk-IVEYHJK6.js"
-    },
-    "chunk-ERTEV7TA": {
-      "file": "chunk-ERTEV7TA.js"
-    },
-    "chunk-5QSPYSUI": {
-      "file": "chunk-5QSPYSUI.js"
+    "chunk-IYO332YY": {
+      "file": "chunk-IYO332YY.js"
     },
     "chunk-UXIASGQL": {
       "file": "chunk-UXIASGQL.js"
