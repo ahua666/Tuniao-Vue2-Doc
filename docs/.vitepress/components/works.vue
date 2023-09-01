@@ -9,7 +9,7 @@
         <el-row :gutter="20" style="margin-top: 20px;">
           <el-col v-for="(item,index) in WorkList" :key="index" :lg="12" :md="12" :sm="12" :xl="8" :xs="24"
                   @click="openDialog">
-            <el-card append-to-body class="box-card" shadow="always" @click="openDialog(item)">
+            <el-card class="box-card" shadow="always" @click="openDialog(item)">
               <span v-show="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
               <span v-show="!item.openSource" class="site-card-tag2 speed">群友<i class="light"></i></span>
               <div style="display: flex;flex-direction: column;">
@@ -199,7 +199,7 @@ a {
 
 .box-card {
   height: 230px;
-  border-radius: 15px;
+  border-radius: 15px !important;
   margin-top: 20px;
   //max-width: 368px;
 }
