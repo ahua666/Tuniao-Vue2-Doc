@@ -248,7 +248,17 @@ a {
 }
 
 .light {
-  //cursor: pointer; position: absolute; //top: 0; width: 100px; height: 35px; background-image: -moz-linear-gradient(0deg, var(--vp--works-card-light-color-one), var(--vp--works-card-light-color-two), var(--vp--works-card-light-color-one)); background-image: -webkit-linear-gradient(0deg, var(--vp--works-card-light-color-one), var(--vp--works-card-light-color-two), var(--vp--works-card-light-color-one)); -webkit-animation: light_tag 4s both infinite; -moz-animation: light_tag 4s both infinite; -ms-animation: light_tag 4s both infinite; animation: light_tag 4s both infinite;
+  //cursor: pointer;
+  position: absolute;
+  //top: 0;
+  width: 100px;
+  height: 35px;
+  background-image: -moz-linear-gradient(0deg, var(--vp--works-card-light-color-one), var(--vp--works-card-light-color-two), var(--vp--works-card-light-color-one));
+  background-image: -webkit-linear-gradient(0deg, var(--vp--works-card-light-color-one), var(--vp--works-card-light-color-two), var(--vp--works-card-light-color-one));
+  -webkit-animation: light_tag 4s both infinite;
+  -moz-animation: light_tag 4s both infinite;
+  -ms-animation: light_tag 4s both infinite;
+  animation: light_tag 4s both infinite;
 }
 
 @keyframes light_tag {
