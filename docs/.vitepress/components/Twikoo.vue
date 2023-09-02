@@ -75,7 +75,16 @@ export default {
           })
           .then(() => {
             this.loadTwikoo();
+            setTimeout(() => {
+              console.clear()
+            }, 10)
+            document.getElementsByClassName("tk-footer")[0].innerHTML.indexOf("评论系统基于") !== -1 ?
+                '' : document.getElementsByClassName("tk-footer")[0].innerHTML = "<div class=\"tk-footer\">\n" +
+                    "  评论系统基于 <a href=\"https://twikoo.js.org\" target=\"_blank\">Twikoo</a>\n" +
+                    "  v1.6.17\n" +
+                    "</div>";
           });
+
     },
     // 初始化加载或者跳转新页面重新加载 Twikoo 评论区
     loadTwikoo() {
@@ -125,6 +134,10 @@ export default {
 </script>
 
 <style>
+.tk-footer {
+  text-align: center !important;
+  margin-top: 66px;
+}
 .twikoo .tk-comments {
   margin: 10px;
 
@@ -141,11 +154,12 @@ export default {
 }
 
 @media (max-width: 1920px) {
-  .twikoo{
+  .twikoo {
     width: 1350px;
     margin: 0 auto;
   }
-  .comm-img{
+
+  .comm-img {
     width: 1250px;
     margin: 0 auto;
   }
@@ -155,11 +169,13 @@ export default {
   .twikoo .tk-comments {
     margin: 50px;
   }
-  .twikoo{
+
+  .twikoo {
     width: 100%;
     margin: 0 auto;
   }
-  .comm-img{
+
+  .comm-img {
     width: 1000px;
     margin: 0 auto;
   }
@@ -169,11 +185,13 @@ export default {
   .twikoo .tk-comments {
     margin: 5px;
   }
-  .twikoo{
+
+  .twikoo {
     width: 100%;
     margin: 0 auto;
   }
-  .comm-img{
+
+  .comm-img {
     width: 800px;
     margin: 0 auto;
   }
@@ -183,11 +201,13 @@ export default {
   .twikoo .tk-comments {
     margin: 5px;
   }
-  .twikoo{
+
+  .twikoo {
     width: 100%;
     margin: 0 auto;
   }
-  .comm-img{
+
+  .comm-img {
     width: 600px;
     margin: 0 auto;
   }
@@ -197,15 +217,18 @@ export default {
   .twikoo .tk-comments {
     margin: 5px;
   }
-  .twikoo{
+
+  .twikoo {
     width: 100%;
     margin: 0 auto;
   }
-  .comm-img{
+
+  .comm-img {
     width: 100%;
     margin: 0 auto;
   }
 }
+
 .el-button--small {
   height: auto !important;
 }
