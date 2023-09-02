@@ -37,7 +37,10 @@ export default defineConfig({
         search: {
             provider: 'local'
         },
-        lastUpdatedText: '上次更新时间', //最后更新时间文本
+        //最后更新时间文本
+        lastUpdated: {
+            text: '上次更新时间',
+        },
         // logo: "/avatar.png", //导航栏左侧头像
         docFooter: { //上下篇文本
             prev: '上一篇',
