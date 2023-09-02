@@ -56,7 +56,7 @@ const members = [
     avatar: '/common/roubao.jpg',
     name: '肉包',
     title: '高级设计师 · 广东 广州',
-    desc:'职责：负责UI设计、与产品经理沟通交互体验设计</br></br>介绍：Ps / Ai / AE / Figma / blender / Sketch / Axure / Xmind / 即时设计C4D等'
+    desc:'职责：负责UI设计、与产品经理沟通交互体验设计</br></br>介绍：Ps / Ai / AE / Figma / blender / Sketch / Axure / Xmind / 即时设计 / C4D等'
   },{
     avatar: '/common/LEELAA.jpg',
     name: 'LEELAA',
