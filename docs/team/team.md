@@ -56,7 +56,7 @@ const members = [
     avatar: '/common/roubao.jpg',
     name: '肉包',
     title: '高级设计师 · 广东 广州',
-    desc:'职责：负责UI设计、与产品经理沟通交互体验设计</br></br>介绍：Ps / Ai / AE / Figma / blender / Sketch / Axure / Xmind / 即时设计C4D等'
+    desc:'职责：负责UI设计、与产品经理沟通交互体验设计</br></br>介绍：Ps / Ai / AE / Figma / blender / Sketch / Axure / Xmind / 即时设计 / C4D等'
   },{
     avatar: '/common/LEELAA.jpg',
     name: 'LEELAA',
@@ -130,7 +130,7 @@ const members = [
     avatar: '/common/Mandy.png',
     name: 'Mandy',
     title: '资深服务端开发工程师 · 上海 静安',
-    desc:'职责：负责为TuniaoUI的Gitee代码维护，图鸟UI vue2.0仓库维护者</br></br>介绍：精通Go，PHP，Java、中间件开发。兔兔找图开源程序作者',
+    desc:'职责：负责为TuniaoUI的Gitee代码维护，图鸟UI vue2.0仓库维护者</br></br>介绍：擅长后端架构设计，掌握多门后端语言。兔兔找图开源作者，兔兔答题开发者。立志于成为一名独立开发者。',
     links: [
       { icon: 'github', link: 'https://github.com/7small7' },
       { icon: {
@@ -138,7 +138,7 @@ const members = [
       }, link: 'https://gitee.com/bruce_qiq' },
       { icon: {
         svg: '<svg t="1693581414975" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6476" width="24" height="24"><path d="M512 0C230.4 0 0 230.4 0 512s230.4 512 512 512 512-230.4 512-512-230.4-512-512-512z m70.4 678.4l-128 108.8c-25.6 19.2-57.6 32-89.6 32-44.8 0-89.6-19.2-121.6-57.6-57.6-64-51.2-160 6.4-211.2l64-51.2c12.8-12.8 38.4-12.8 51.2 6.4 12.8 12.8 12.8 38.4-6.4 51.2l-64 51.2c-32 25.6-32 70.4 0 108.8 32 32 76.8 44.8 108.8 19.2l128-108.8c32-25.6 32-70.4 0-108.8-12.8-19.2-6.4-44.8 6.4-57.6 19.2-12.8 38.4-12.8 51.2 6.4 57.6 64 51.2 160-6.4 211.2z m211.2-179.2l-64 51.2c-12.8 12.8-38.4 12.8-51.2-6.4-12.8-12.8-12.8-38.4 6.4-51.2l64-51.2c32-25.6 32-70.4 0-108.8-32-32-76.8-44.8-108.8-19.2L512 422.4c-19.2 12.8-25.6 32-25.6 51.2s6.4 44.8 19.2 57.6 12.8 38.4-6.4 51.2c-12.8 6.4-38.4 12.8-57.6-6.4-25.6-32-32-64-32-102.4s19.2-76.8 51.2-102.4l128-108.8c57.6-51.2 153.6-38.4 211.2 25.6 57.6 64 51.2 160-6.4 211.2z" p-id="6477"></path></svg>'
-      }, link: 'https://shequn.qqdeveloper.com/' }
+      }, link: 'https://www.tutudati.com' }
     ]
   },{
     avatar: '/common/ww.jpg',
