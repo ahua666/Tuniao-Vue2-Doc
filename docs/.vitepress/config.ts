@@ -64,6 +64,7 @@ export default defineConfig({
             {text: '社区', link: '/Community/Community'},
             {text: '作品', link: '/works/works'},
             {text: '团队', link: '/team/team'},
+            {text: '图标', link: 'https://icon.ahuaaa.cn/#/'},
             {text: 'Vue3', link: 'https://vue3.tuniaokj.com/'},
             // {text: '图标', link: ''},
             // {text: 'Vue3', link: ''},
@@ -71,8 +72,8 @@ export default defineConfig({
             {
                 text: '资源',
                 items: [
-                    {text: '图标', link: 'https://icon.ahuaaa.cn/#/'},
                     {text: 'Gitee', link: 'https://gitee.com/TSpecific/tuniao-ui'},
+                    {text: 'Github', link: 'https://github.com/ahua666/tuniaoUI'},
                     {text: '插件市场', link: 'https://ext.dcloud.net.cn/publisher?id=356088'}
                 ]
             }
