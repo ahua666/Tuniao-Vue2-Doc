@@ -4,7 +4,7 @@
       <h3>作品推荐({{ WorkList.length }})</h3>
       <h4>作品收集，为基于图鸟UI开发的相关作品项目引流，展示在使用文档上，后续展示在模板市场上
 
-        图鸟UI一直在努力做的更好，2023年，也将做的更好</h4>
+        图鸟UI一直在努力做的更好，2023年，也将做的更好。</h4>
       <div style="margin: 0 auto">
         <el-row :gutter="20" style="margin-top: 20px;">
           <el-col v-for="(item,index) in WorkList" :key="index" :lg="12" :md="12" :sm="12" :xl="8" :xs="24"
