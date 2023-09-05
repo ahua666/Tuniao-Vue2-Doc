@@ -115,6 +115,6 @@ export default {
 | loadingIcon      | 显示加载图标                                                   | Boolean | true                                                      | false                       |
 | loadingIconType  | 加载图标样式，参考tn-loading组件的加载类型 `circle` (圆圈) `flower` (花朵形状) | String  | circle                                                    | circle  / flower            |
 | loadingIconColor | 在圆圈加载状态下，圆圈的颜色                                           | String  | -                                                         | -                           |
-| loadText         | 显示的文字                                                    | Object  | { loadmore: '加载更多', loading: '正在加载...', nomore: '没有更多了' } |                             |
+| loadText         | 显示的文字                                                    | Object  | `{ loadmore: '加载更多', loading: '正在加载...', nomore: '没有更多了' }` |                             |
 | dot              | 是否显示粗点，在nomore状态下生效                                      | Boolean | false                                                     | true                        |
 | customStyle      | 自定义组件样式                                                  | Object  | -                                                         | -                           |

@@ -2,7 +2,6 @@
 
 <demo-model url="/componentsPage/subsection/subsection"></demo-model>
 
-
 该分段器一般用于用户从几个选项中选择某一个的场景
 
 ### 平台差异说明
@@ -11,26 +10,31 @@
 |:---:|:--:|:-----:|:------:|:-----:|:-----:|:-----:|
 |  √  | √  |   √   |  兼容中   |  兼容中  |  兼容中  |  兼容中  |
 
+### 基本使用
 
-### 基本使用 
 ```vue
+
 <template>
   <tn-subsection :list="list"></tn-subsection>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      list: ['全部','未付款','待发货','待收货','待评价'],
+  export default {
+    data() {
+      return {
+        list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+      }
     }
   }
-}
 </script>
 ```
+
 ### 按钮模式
+
 `button` 按钮模式 `subsection` 分段模式
+
 ```vue
+
 <template>
   <tn-subsection :list="list" mode="button"></tn-subsection>
   <view class="tn-margin-top">
@@ -39,33 +43,39 @@ export default {
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      list: ['全部','未付款','待发货','待收货','待评价'],
+  export default {
+    data() {
+      return {
+        list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+      }
     }
   }
-}
 </script>
 ```
+
 ### 取消切换动画
+
 ```vue
+
 <template>
   <tn-subsection :list="list" :animation="false"></tn-subsection>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      list: ['全部','未付款','待发货','待收货','待评价'],
+  export default {
+    data() {
+      return {
+        list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+      }
     }
   }
-}
 </script>
 ```
+
 ### 贝塞尔曲线切换动画
+
 ```vue
+
 <template>
   <tn-subsection :list="list" animationType="cubic-bezier"></tn-subsection>
   <view class="tn-margin-top">
@@ -74,32 +84,37 @@ export default {
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      list: ['全部','未付款','待发货','待收货','待评价'],
+  export default {
+    data() {
+      return {
+        list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+      }
     }
   }
-}
 </script>
 ```
+
 ### 选中字体设置为粗体
+
 ```vue
+
 <template>
   <tn-subsection :list="list" :bold="true"></tn-subsection>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      list: ['全部','未付款','待发货','待收货','待评价'],
+  export default {
+    data() {
+      return {
+        list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+      }
     }
   }
-}
 </script>
 ```
+
 ### 自定义样式
+
 ```vue
 
 <template>
@@ -115,15 +130,16 @@ export default {
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+  export default {
+    data() {
+      return {
+        list: ['全部', '未付款', '待发货', '待收货', '待评价'],
+      }
     }
   }
-}
 </script>
 ```
+
 ### API
 
 ### Subsection Props
@@ -149,4 +165,4 @@ export default {
 
 | 事件名称   | 说明   | 回调参数                |
 |--------|------|---------------------|
-| change | 点击事件 | {index:0,name:"全部"} |
+| change | 点击事件 | `{index:0,name:"全部"}` |

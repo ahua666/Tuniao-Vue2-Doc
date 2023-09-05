@@ -50,49 +50,21 @@ TuniaoUI为了方便用户进行配色，提供了一套常用的配色供用户
 
 以上的颜色值TuniaoUI也提供了对应的颜色变量，方便您在任何可以编写`scss`的地方进行调用。
 
-```css
-$
-tn-color-red: #E83A30
-
-;
-$
-tn-color-red-dark: #BA3027
-
-;
-$
-tn-color-red-disabled: #F9CDCB
-
-;
-$
-tn-color-red-light: #FAD8D6
-
-;
-
-/
-/
-......
-
-$
-tn-color-gray: #AAAAAA
-
-;
-$
-tn-color-gray-dark: #838383
-
-;
-$
-tn-color-gray-disabled: #E6E6E6
-
-;
-$
-tn-color-gray-light: #F8F7F8
-
-;
+```scss
+$tn-color-red: #E83A30  ;
+$tn-color-red-dark: #BA3027  ;
+$tn-color-red-disabled: #F9CDCB  ;
+$tn-color-red-light: #FAD8D6  ;
+//  ......
+$tn-color-gray: #AAAAAA  ;
+$tn-color-gray-dark: #838383  ;  
+$tn-color-gray-disabled: #E6E6E6;
+$tn-color-gray-light: #F8F7F8;
 
 /* 在您编写css的地方使用这些变量 */
 .wrap {
-    color: $ tn-color-red;
-/ / . . . . . .
+    color: $tn-color-red;
+//......
 }
 ```
 

@@ -2,11 +2,7 @@
 
 <demo-model url="/componentsPage/collapse/collapse"></demo-model>
 
-
 通过折叠面板收纳内容区域
-## Collapse 折叠面板
-
-
 
 ### 平台差异说明
 
