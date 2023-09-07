@@ -47,7 +47,6 @@ export default {
   right: 40px;
   bottom: 80px;
   z-index: 9999;
-  //border-radius: 50%;
 }
 .littleHelper{
   font-size: 42px;
@@ -110,7 +109,6 @@ export default {
 
 @media (width<1280px) {
   .demo-model {
-    //display: none;
     height: calc(310px * 143.6 / 70.9);
     top: calc((100vh - 110px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
     right: 0px;
