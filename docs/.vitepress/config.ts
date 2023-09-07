@@ -37,7 +37,7 @@ export default defineConfig({
 
     lastUpdated: true, //以git提交的时间为更新时间
     themeConfig: {
-        logo: '/public/common/logo.png',
+        logo: '/common/logo.png',
         // author: 'Star',
         editLink: {
             pattern: 'https://github.com/ahua666/Tuniao-Vue2-Doc/edit/master/docs/:path',
