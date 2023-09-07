@@ -3,7 +3,6 @@
 import {defineConfig, DefaultTheme} from 'vitepress'
 
 export default defineConfig({
-
     title: "Tuniao UI", //网站标题
     description: "图鸟UI-是图鸟科技打造的开发者全成长周期开源平台，围绕酷炫、效率、合作、成就、变现五大用户价值布局平台能力，全力服务开发者，旨在成为开发者的好朋友。图鸟历经多轮打磨雕刻，集海量高品质图鸟模板、实时在线预览、多元化场景模板、轻便好学、易上手等多重优势于一身的开发神器，更自带免费开源可商用属性，为企业集团、公司团队、前端后端开发者、运营大佬、社交达人、学生小白提供了一个零成本的在线开发平台和资源库。", //网站描述,会生成<meta>便签
     // author: "Star", //作者
@@ -29,6 +28,7 @@ export default defineConfig({
     ],
     lastUpdated: true, //以git提交的时间为更新时间
     themeConfig: {
+        logo: '/public/common/logo.png',
         // author: 'Star',
         editLink: {
             pattern: 'https://github.com/ahua666/Tuniao-Vue2-Doc/edit/master/docs/:path',

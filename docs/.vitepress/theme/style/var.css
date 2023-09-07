@@ -1,21 +1,21 @@
 :root {
-  /* 标题 */
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient( 135deg, #43CBFF 10%, #6e26ba 100%);
+    /* 标题 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #43CBFF 10%, #6e26ba 100%);
 
-  /*--vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #FFA8A8 30%, #FCFF00);*/
-  /* linear-gradient( -45deg, #FFA8A8 50%, #FCFF00 50%); */
-  /* linear-gradient( -45deg, #bd34fe 50%, #47caff 50% ) */
-  /* -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff ) */
-  /* 图标背景 */
-    --vp-home-hero-image-background-image: linear-gradient( 135deg, #43CBFF 10%, #6e26ba 100%);
+    /*--vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #FFA8A8 30%, #FCFF00);*/
+    /* linear-gradient( -45deg, #FFA8A8 50%, #FCFF00 50%); */
+    /* linear-gradient( -45deg, #bd34fe 50%, #47caff 50% ) */
+    /* -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff ) */
+    /* 图标背景 */
+    --vp-home-hero-image-background-image: linear-gradient(135deg, #43CBFF 10%, #6e26ba 100%);
 
-  /*--vp-home-hero-image-background-image: linear-gradient( -45deg, #ff8f8691 50%, #f1d06c 50%);*/
-  --vp-home-hero-image-filter: blur(56px);
-  /*background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);*/
+    /*--vp-home-hero-image-background-image: linear-gradient( -45deg, #ff8f8691 50%, #f1d06c 50%);*/
+    --vp-home-hero-image-filter: blur(56px);
+    /*background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);*/
     /* brand按钮 */
-  --vp-button-brand-border: #3668FC;
-  /*--vp-button-brand-border: #feb986;*/
+    --vp-button-brand-border: #3668FC;
+    /*--vp-button-brand-border: #feb986;*/
     --vp-button-brand-text: #fff;
     --vp-button-brand-bg: #3668FC;
     /* feb986 */
@@ -26,48 +26,56 @@
     --vp-button-brand-active-border: #43CBFF;
     --c-brand: #feb986;
     --c-brand-light: #feb986;
-    --vp-button-brand-active-bg:#43CBFF;
+    --vp-button-brand-active-bg: #43CBFF;
 
-/*  NavBar 按钮*/
-/*  --vp-c-brand: var(--vp-c-green);*/
-/*  --vp-c-brand-light: var(--vp-c-green-light);*/
-/*  --vp-c-brand-lighter: var(--vp-c-green-lighter);*/
-/*  --vp-c-brand-dark: var(--vp-c-green-dark);*/
-/*  --vp-c-brand-darker: var(--vp-c-green-darker);*/
-  --vp-c-brand: #3668FC;
-  --vp-c-brand-light: #3260e8;
-  --vp-c-brand-lighter: #4164cc;
-  --vp-c-brand-dark: #435ca6;
-  --vp-c-brand-darker: #455585;
+    /*  NavBar 按钮*/
+    /*  --vp-c-brand: var(--vp-c-green);*/
+    /*  --vp-c-brand-light: var(--vp-c-green-light);*/
+    /*  --vp-c-brand-lighter: var(--vp-c-green-lighter);*/
+    /*  --vp-c-brand-dark: var(--vp-c-green-dark);*/
+    /*  --vp-c-brand-darker: var(--vp-c-green-darker);*/
+    --vp-c-brand: #3668FC;
+    --vp-c-brand-light: #3260e8;
+    --vp-c-brand-lighter: #4164cc;
+    --vp-c-brand-dark: #435ca6;
+    --vp-c-brand-darker: #455585;
 
-  --vp-custom-block-tip-border: #646cff;
-  --vp-custom-block-tip-text: #4164cc;
-  --vp-custom-block-tip-bg: #646cff14;
-  --vp-resource-card-bg: #fff;
+    --vp-custom-block-tip-border: #646cff;
+    --vp-custom-block-tip-text: #4164cc;
+    --vp-custom-block-tip-bg: #646cff14;
+    --vp-resource-card-bg: #fff;
 
-  --vp-resource-card-h3: #1f2f3d;
-/*  作品左上角移动光颜色*/
-  --vp--works-card-light-color-one: rgba(255, 255, 255, 0);
-  --vp--works-card-light-color-two: rgba(255, 255, 255, 0.5);
-/* 作品dialog链接字体*/
-  --vp--works-dialog-link-color:rgb(29, 30, 34);
+    --vp-resource-card-h3: #1f2f3d;
+    /*  作品左上角移动光颜色*/
+    --vp--works-card-light-color-one: rgba(255, 255, 255, 0);
+    --vp--works-card-light-color-two: rgba(255, 255, 255, 0.5);
+    /* 作品dialog链接字体*/
+    --vp--works-dialog-link-color: rgb(29, 30, 34);
 }
-.dark{
-  --vp--works-dialog-link-color:rgb(255, 255, 255);
-  --vp-custom-block-tip-border: #9fa4ff;
-  --vp-custom-block-tip-text: #799bff;
-  --vp-custom-block-tip-bg: #2a35ff14;
-  --vp-resource-card-bg: #fff0;
-  --vp-resource-card-h3: #fff;
-  --vp--works-card-light-color-one: rgba(29, 30, 31, 0);
-  --vp--works-card-light-color-two: rgba(29, 30, 31, 0.1);
+
+.dark {
+    --vp--works-dialog-link-color: rgb(255, 255, 255);
+    --vp-custom-block-tip-border: #9fa4ff;
+    --vp-custom-block-tip-text: #799bff;
+    --vp-custom-block-tip-bg: #2a35ff14;
+    --vp-resource-card-bg: #fff0;
+    --vp-resource-card-h3: #fff;
+    --vp--works-card-light-color-one: rgba(29, 30, 31, 0);
+    --vp--works-card-light-color-two: rgba(29, 30, 31, 0.1);
 }
+
 .docs-cn-github-release-tag {
-  font-size: 14px;
-  font-weight: bold;
-  padding: 4px 6px;
-  margin-left: 6px;
-  background: var(--vp-home-hero-image-background-image);
-  color: white;
-  border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 6px;
+    margin-left: 6px;
+    background: var(--vp-home-hero-image-background-image);
+    color: white;
+    border-radius: 10px;
+}
+
+@media (min-width: 1222px) {
+    .VPDoc {
+        padding: 0 306px 32px 0px !important;
+    }
 }
