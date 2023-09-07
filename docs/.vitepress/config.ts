@@ -10,22 +10,31 @@ export default defineConfig({
     markdown: {
         lineNumbers: true, //显示代码行数
     },
+    //search中文显示
+    lang: 'zh',
     head: [
         [
             'script', // js 文件
-            { src: 'https://cdn.staticfile.org/twikoo/1.6.17/twikoo.all.min.js' }
-        ],[
+            {src: 'https://cdn.staticfile.org/twikoo/1.6.17/twikoo.all.min.js'}
+        ], [
             'script', // js 文件
-            { src: '/js/Star.js' }
-        ],[
+            {src: '/js/Star.js'}
+        ], [
             'meta',
-            { property: "og:description", content: "图鸟UI-是图鸟科技打造的开发者全成长周期开源平台，围绕酷炫、效率、合作、成就、变现,五大用户价值布局平台能力，全力服务开发者，旨在成为开发者的好朋友。图鸟历经多轮打磨雕刻，集海量高品质图鸟模板、实时在线预览、多元化场景模板、轻便好学、易上手等多重优势于一身的开发神器，更自带免费开源可商用属性，为企业集团、公司团队、前端后端开发者、运营大佬、社交达人、学生小白提供了一个零成本的在线开发平台和资源库。" }
+            {
+                property: "og:description",
+                content: "图鸟UI-是图鸟科技打造的开发者全成长周期开源平台，围绕酷炫、效率、合作、成就、变现,五大用户价值布局平台能力，全力服务开发者，旨在成为开发者的好朋友。图鸟历经多轮打磨雕刻，集海量高品质图鸟模板、实时在线预览、多元化场景模板、轻便好学、易上手等多重优势于一身的开发神器，更自带免费开源可商用属性，为企业集团、公司团队、前端后端开发者、运营大佬、社交达人、学生小白提供了一个零成本的在线开发平台和资源库。"
+            }
         ],
         [
             'meta',
-            { name: "keywords", content: "图鸟科技，图鸟UI，UI设计，酷炫模板，酷炫前端，插件市场，uniapp，uni-app，小程序，一站式开发，混合开发，跨平台开发，微信小程序，组件，前端模板，页面模板，项目模板，HBuilderX模板，原型制作，视觉设计，程序开发，运营维护，前端组件，项目模版，官网模版，全套模版，全套源码，免费下载" }
+            {
+                name: "keywords",
+                content: "图鸟科技，图鸟UI，UI设计，酷炫模板，酷炫前端，插件市场，uniapp，uni-app，小程序，一站式开发，混合开发，跨平台开发，微信小程序，组件，前端模板，页面模板，项目模板，HBuilderX模板，原型制作，视觉设计，程序开发，运营维护，前端组件，项目模版，官网模版，全套模版，全套源码，免费下载"
+            }
         ]
     ],
+
     lastUpdated: true, //以git提交的时间为更新时间
     themeConfig: {
         logo: '/public/common/logo.png',
@@ -34,8 +43,30 @@ export default defineConfig({
             pattern: 'https://github.com/ahua666/Tuniao-Vue2-Doc/edit/master/docs/:path',
             text: '在Github上编辑此页'
         },
+        //search中文显示
         search: {
-            provider: 'local'
+            provider: 'local',
+            options: {
+                locales: {
+                    root: {
+                        translations: {
+                            button: {
+                                buttonText: '搜索',
+                                buttonAriaLabel: '搜索'
+                            },
+                            modal: {
+                                noResultsText: '无法找到相关结果',
+                                resetButtonTitle: '清除查询条件',
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换',
+                                    closeText: '关闭'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         },
         //最后更新时间文本
         lastUpdated: {
@@ -46,7 +77,7 @@ export default defineConfig({
             prev: '上一篇',
             next: '下一篇'
         },
-        aside:false,
+        aside: false,
         footer: {
             copyright: 'Copyright © 2022-present Tuniao UI',
             // message: "Released under the MIT License.",
