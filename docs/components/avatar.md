@@ -90,11 +90,13 @@
 <tn-avatar-group :lists="groupList"></tn-avatar-group>
 
 data() {
-  return {
-	{src: 'https://demo.com/avatar/xiaomai1.jpg'}, // 显示为图片
-    {text: 'TN'}, // 显示为文字
-	{icon: 'logo-tuniao'}, // 显示为图标
-  }
+    return {
+        groupList: {
+            src: 'https://demo.com/avatar/xiaomai1.jpg', // 显示为图片
+            text: 'TN', // 显示为文字
+            icon: 'logo-tuniao', // 显示为图标
+        }
+    }
 }
 ```
 
