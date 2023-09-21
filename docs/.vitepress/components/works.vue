@@ -302,8 +302,8 @@ const openDialog = (item) => {
   dialogVisible.value = true;
 };
 function shuffleArray(array) {
-  const firstFive = array.slice(0, 5);
-  const remaining = array.slice(5);
+  const firstFive = array.slice(0, 6);
+  const remaining = array.slice(6);
 
   for (let i = firstFive.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
