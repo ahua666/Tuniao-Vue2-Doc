@@ -8,7 +8,22 @@ import {
   VPTeamPageTitle,
   VPTeamMembers
 } from 'vitepress/theme';
+function shuffleArray(array) {
+  const firstFive = array.slice(0, 3);
+  const remaining = array.slice(3);
 
+  for (let i = firstFive.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [firstFive[i], firstFive[j]] = [firstFive[j], firstFive[i]];
+  }
+
+  for (let i = remaining.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
+  }
+
+  return firstFive.concat(remaining);
+}
 const members = [
   {
     avatar: '/common/kewohuixiang.jpg',
@@ -161,7 +176,7 @@ const members = [
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
-    :members="members"
+    :members="shuffleArray(members)"
   />
 
 </VPTeamPage>

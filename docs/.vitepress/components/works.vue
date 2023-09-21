@@ -7,7 +7,7 @@
         图鸟UI一直在努力做的更好，2023年，也将做的更好。</h4>
       <div style="margin: 0 auto">
         <el-row :gutter="20" style="margin-top: 20px;">
-          <el-col v-for="(item,index) in WorkList" :key="index" :lg="12" :md="12" :sm="12" :xl="8" :xs="24"
+          <el-col v-for="(item,index) in shuffleArray(WorkList)" :key="index" :lg="12" :md="12" :sm="12" :xl="8" :xs="24"
                   @click="openDialog">
             <el-card class="box-card" shadow="always" @click="openDialog(item)">
               <span v-show="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
@@ -281,7 +281,6 @@ a {
 </style>
 <script lang="ts" setup>
 import {ref} from 'vue';
-import {toRaw} from "@vue/reactivity";
 
 let dialogModel = ref({
   name: '多客社交圈子',
@@ -302,6 +301,23 @@ const openDialog = (item) => {
   console.log(dialogModel)
   dialogVisible.value = true;
 };
+function shuffleArray(array) {
+  const firstFive = array.slice(0, 5);
+  const remaining = array.slice(5);
+
+  for (let i = firstFive.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [firstFive[i], firstFive[j]] = [firstFive[j], firstFive[i]];
+  }
+
+  for (let i = remaining.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
+  }
+
+  return firstFive.concat(remaining);
+}
+
 
 const dialogVisible = ref(false);
 const WorkList = ref([{
