@@ -25,7 +25,6 @@ function shuffleArray(array) {
     const j = Math.floor(Math.random() * (i + 1));
     [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
   }
-  console.log(firstFive.concat(remaining));
   return firstFive.concat(remaining);
 }
 const members =ref([
