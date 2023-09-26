@@ -24,9 +24,14 @@ export default {
           groupLink: 'https://jq.qq.com/?_wv=1027&k=phAZYOaK'
         },
         {
-          name: '官方2群',
+          name: '官方2群 (已满)',
           groupID: '765208290',
           groupLink: 'https://jq.qq.com/?_wv=1027&k=8WlATIbR'
+        },
+        {
+          name: '官方3群',
+          groupID: '313825364',
+          groupLink: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=G9X9hC1C_RhE5J0xb6JisPc5W1xqcOFI&authKey=jG%2FCwCXna6eAe3VjYDV%2FlBeaAzF9aYnrZOKDSD12LzT%2FyXXdDrLmTVsWVlNOjKKk&noverify=0&group_code=313825364'
         },
       ]
     }
