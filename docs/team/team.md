@@ -7,7 +7,11 @@ import {
   VPTeamPage,
   VPTeamPageTitle,
   VPTeamMembers
-} from 'vitepress/theme';
+} from 'vitepress/theme'; 
+import {onMounted, ref} from "vue"; 
+onMounted(() => {
+  members.value=shuffleArray(members.value);
+});
 function shuffleArray(array) {
   const firstFive = array.slice(0, 3);
   const remaining = array.slice(3);
@@ -24,7 +28,7 @@ function shuffleArray(array) {
   console.log(firstFive.concat(remaining));
   return firstFive.concat(remaining);
 }
-const members = [
+const members =ref([
   {
     avatar: '/common/kewohuixiang.jpg',
     name: '可我会像',
@@ -161,9 +165,10 @@ const members = [
     title: '全栈开发 · 广东 深圳',
     desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持</br></br>介绍：8年开发经验 uniapp，vue2，node，java，C#，go，python，C，C++。时不时带货主播，CV大师'
   }
-
-  
 ]
+)
+
+
 </script>
 
 <VPTeamPage>
@@ -176,7 +181,7 @@ const members = [
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
-    :members="shuffleArray(members)"
+    :members="members"
   />
 
 </VPTeamPage>
