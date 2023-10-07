@@ -24,8 +24,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 
 ### 扫码
 
-<div class="demo-wrap row">
-    <div class="col-md-3 col-sm-6 col-xs-12">
+<el-row>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/1_TuniaoUI_H5.png" />
 			<div class="platform-name">
@@ -33,8 +33,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">微信或浏览器扫码</p>
 			</div>
 		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/2_TuniaoUI.jpg" />
 			<div class="platform-name">
@@ -42,8 +42,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">酷炫创意UI框架</p>
 			</div>
 		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/3_TuniaoVue3.jpg" />
 			<div class="platform-name">
@@ -51,8 +51,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">酷炫创意UI框架</p>
 			</div>
 		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/4_Quanzishangquan.jpg" />
 			<div class="platform-name">
@@ -60,8 +60,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟模板1</p>
 			</div>
 		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/5_shequboke.jpg" />
 			<div class="platform-name">
@@ -69,8 +69,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟模板2</p>
 			</div>
 		</div>
-	</div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/6_xiongjiebizhi.jpg" />
 			<div class="platform-name">
@@ -78,8 +78,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟模板3</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/7_zixunmingpian.jpg" />
 			<div class="platform-name">
@@ -87,8 +87,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟模板4</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/8_qiyeguanwang.jpg" />
 			<div class="platform-name">
@@ -96,8 +96,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟官网</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/9_Pinpaishangcheng.jpg" />
 			<div class="platform-name">
@@ -105,8 +105,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟模板6</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/10_BangongOA.jpg" />
 			<div class="platform-name">
@@ -114,8 +114,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">图鸟模板7</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/11_icon.png" />
 			<div class="platform-name">
@@ -123,8 +123,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">微信或浏览器扫码</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/12_xiaoshangdian.jpg" />
 			<div class="platform-name">
@@ -132,8 +132,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">只能微信扫码</p>
 			</div>
 		</div>
-	</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+	</el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/13_manghe.jpg" />
 			<div class="platform-name">
@@ -141,8 +141,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">只能微信扫码</p>
 			</div>
 		</div>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/14_tubiao.jpg" />
 			<div class="platform-name">
@@ -150,8 +150,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">只能微信扫码</p>
 			</div>
 		</div>
-</div>
-<div class="col-md-3 col-sm-6 col-xs-12">
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
 		<div class="demo-item">
 			<img src="../.vitepress/public/common/xcx/15_vue3zhifubao.jpg" />
 			<div class="platform-name">
@@ -159,8 +159,8 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 				<p class="platform-tips">只能微信扫码</p>
 			</div>
 		</div>
-</div>
-</div>
+    </el-col>
+</el-row>
 
 
 <style scoped>
@@ -172,7 +172,7 @@ Tuniao UI会将各个版本的演示在此展示，目前演示的版本有H5，
 		transition: bottom 0.4s;
 		position: relative;
 		bottom: 0;
-		margin: 1.5rem;
+		margin: 10px;
 		padding: 2rem 0;
 	}
 	
