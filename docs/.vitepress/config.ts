@@ -15,7 +15,7 @@ export default defineConfig({
     head: [
         [
             'script', // js 文件
-            {src: 'https://cdn.staticfile.org/twikoo/1.6.17/twikoo.all.min.js'}
+            {src: 'https://cdn.staticfile.org/twikoo/1.6.21/twikoo.all.min.js'}
         ], [
             'script', // js 文件
             {src: '/js/Star.js'}
