@@ -86,7 +86,7 @@
           text: '文字操作',
           color: '#080808',
           fontSize: 28
-        }
+        },
         show: false
       }
     }
