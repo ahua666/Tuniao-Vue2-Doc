@@ -7,7 +7,7 @@
         图鸟UI一直在努力做的更好，2023年，也将做的更好。</h4>
       <div style="margin: 0 auto">
         <el-row :gutter="20" style="margin-top: 20px;">
-          <el-col v-for="(item,index) in WorkList" :key="index" :lg="12" :md="12" :sm="12" :xl="8" :xs="24"
+          <el-col v-for="(item,index) in WorkList" :key="index" :xl="8" :lg="8" :md="12" :sm="12"  :xs="24"
                   @click="openDialog">
             <el-card class="box-card" shadow="always" @click="openDialog(item)">
               <span v-show="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
