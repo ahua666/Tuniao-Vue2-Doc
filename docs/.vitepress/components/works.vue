@@ -44,46 +44,48 @@
         </el-row>
       </div>
     </div>
-    <el-dialog v-model="dialogVisible" custom-class="star-dialog" width="800px">
-      <div>
-        <div style="display: flex;flex-direction: column;">
-          <div style="display: flex">
-            <el-image
-                :src="dialogModel.indexImg"
-                class="Star-img"
-                fit="fill"
-                style="width: 80px; height: 80px;box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);"></el-image>
-            <div>
-              <div style="font-size: 18px;font-weight: bold;margin: 14px 0px 12px 15px;">
-                {{ dialogModel.name }}
-              </div>
-              <div style="display: flex">
-                <div v-for="(item2,index2) in dialogModel.tag"
-                     style="margin: 0px 0px 0px 15px; border:1px #dedede solid;border-radius: 12px;padding: 3px 6px 4px 8px;">
-                  {{ item2 }}
+    <ClientOnly>
+      <el-dialog v-model="dialogVisible" custom-class="star-dialog" width="800px">
+        <div>
+          <div style="display: flex;flex-direction: column;">
+            <div style="display: flex">
+              <el-image
+                  :src="dialogModel.indexImg"
+                  class="Star-img"
+                  fit="fill"
+                  style="width: 80px; height: 80px;box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);"></el-image>
+              <div>
+                <div style="font-size: 18px;font-weight: bold;margin: 14px 0px 12px 15px;">
+                  {{ dialogModel.name }}
+                </div>
+                <div style="display: flex">
+                  <div v-for="(item2,index2) in dialogModel.tag"
+                       style="margin: 0px 0px 0px 15px; border:1px #dedede solid;border-radius: 12px;padding: 3px 6px 4px 8px;">
+                    {{ item2 }}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div style="margin-top: 20px">{{ dialogModel.desc }}</div>
-          <div style="margin-top: 20px">
-            <a v-if="dialogModel.uniapp" :href="dialogModel.uniapp" target="_blank" @click.stop><span
-                style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.uniapp }} </a>
-            <a v-if="dialogModel.github" :href="dialogModel.github" target="_blank" @click.stop><span
-                style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.github }}</a>
-            <a v-if="dialogModel.gitee" :href="dialogModel.gitee" target="_blank" @click.stop><span
-                style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.gitee }}</a>
-            <a v-if="dialogModel.link" :href="dialogModel.link" target="_blank" @click.stop><span
-                style="color: var(--vp--works-dialog-link-color)">相关地址:</span>{{ dialogModel.link }}</a>
-          </div>
+            <div style="margin-top: 20px">{{ dialogModel.desc }}</div>
+            <div style="margin-top: 20px">
+              <a v-if="dialogModel.uniapp" :href="dialogModel.uniapp" target="_blank" @click.stop><span
+                  style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.uniapp }} </a>
+              <a v-if="dialogModel.github" :href="dialogModel.github" target="_blank" @click.stop><span
+                  style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.github }}</a>
+              <a v-if="dialogModel.gitee" :href="dialogModel.gitee" target="_blank" @click.stop><span
+                  style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.gitee }}</a>
+              <a v-if="dialogModel.link" :href="dialogModel.link" target="_blank" @click.stop><span
+                  style="color: var(--vp--works-dialog-link-color)">相关地址:</span>{{ dialogModel.link }}</a>
+            </div>
 
-          <div style="margin-top:35px ">
-            <el-image v-for="(item3,index) in dialogModel.img" :src="item3"
-                      style="width: 180px;margin: 0px 20px 0px 0px;"></el-image>
+            <div style="margin-top:35px ">
+              <el-image v-for="(item3,index) in dialogModel.img" :src="item3"
+                        style="width: 180px;margin: 0px 20px 0px 0px;"></el-image>
+            </div>
           </div>
         </div>
-      </div>
-    </el-dialog>
+      </el-dialog>
+    </ClientOnly>
   </div>
 
 </template>
@@ -301,6 +303,7 @@ const openDialog = (item) => {
   console.log(dialogModel)
   dialogVisible.value = true;
 };
+
 function shuffleArray(array) {
   const firstFive = array.slice(0, 6);
   const remaining = array.slice(6);
@@ -319,7 +322,7 @@ function shuffleArray(array) {
 }
 
 onMounted(() => {
-  WorkList.value=shuffleArray(WorkList.value);
+  WorkList.value = shuffleArray(WorkList.value);
 });
 const dialogVisible = ref(false);
 const WorkList = ref([{
@@ -402,13 +405,13 @@ const WorkList = ref([{
   img: [
     'https://img.ahuaaa.cn/img/20230901161511.png'
   ],
-  tag: ['工具','图片'],
+  tag: ['工具', '图片'],
   openSource: false,
   github: '',
   gitee: '',
   uniapp: '',
   link: 'https://mp.weixin.qq.com/s/NycGWUTHhURJ-SUHq0WE8Q'
-},{
+}, {
   name: 'Coisini去水印',
   desc: '免费去抖音、小红书、微博等水印、无广告、无限制，咱就是主打一个免费。',
   indexImg: 'https://img.ahuaaa.cn/img/20230901161322.png',
@@ -421,7 +424,7 @@ const WorkList = ref([{
   gitee: '',
   uniapp: '',
   link: ''
-},{
+}, {
   name: '电子鲁班',
   desc: '手持弹幕|AI一键抠图|尺子|MD5加密|时间戳转换|电子印章|图片添加水印|老照片修复|花体字转换|图片压缩|邮编查询|指南针|水平仪',
   indexImg: 'https://img.ahuaaa.cn/img/20230901161122.png',
@@ -434,7 +437,7 @@ const WorkList = ref([{
   gitee: '',
   uniapp: '',
   link: ''
-},{
+}, {
   name: '牛基圈晴雨表',
   desc: '您身边的投资小助手，实时查看基金预估涨幅收益！',
   indexImg: 'https://img.ahuaaa.cn/img/20230707144043.png',
