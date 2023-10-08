@@ -15,7 +15,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/demo
+      link: /components/install
+    - theme: alt
+      text: 演示
+      link: /components/intro
     - theme: alt
       text: 在 Github 上查看
       link: https://github.com/ahua666/tuniaoUI
