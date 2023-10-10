@@ -12,6 +12,14 @@ export default defineConfig({
     },
     //search中文显示
     lang: 'zh',
+    vite: {
+        server: {
+            host: '0.0.0.0',
+            port: 5173,
+            // 是否开启 https
+            https: false,
+        },
+    },
     head: [
         [
             'script', // js 文件

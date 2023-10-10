@@ -33,7 +33,7 @@ export default {
   },
   computed: {
     href() {
-      return this.url.indexOf('http') == 0 ? this.url : `${this.baseUrl}${this.url}`;
+      return this.url.indexOf('http') === 0 ? this.url : `${this.baseUrl}${this.url}`;
     }
   },
   created() {
@@ -102,8 +102,8 @@ export default {
 
   .demo-model {
     top: calc((100vh - 110px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
-    right: 0px;
-    margin-right: 0px;
+    right: 0;
+    margin-right: 0;
   }
 }
 
@@ -111,10 +111,20 @@ export default {
   .demo-model {
     height: calc(310px * 143.6 / 70.9);
     top: calc((100vh - 110px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
-    right: 0px;
-    margin-right: 0px;
+    right: 0;
+    margin-right: 0;
   }
-}@media (width<969px) {
+}
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .demo-model {
+    display: none;
+  }
+  .Helper{
+    display: none;
+  }
+}
+@media screen and (width<969px) {
   .demo-model {
     display: none;
   }
@@ -128,7 +138,7 @@ export default {
     width: 270px;
     height: calc(270px * 143.6 / 70.9);
     top: calc((100vh - 110px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
-    right: 0px;
+    right: 0;
     margin-right: 5px;
   }
 }
@@ -138,7 +148,7 @@ export default {
     width: 310px;
     height: calc(310px * 143.6 / 70.9);
     top: calc((100vh - 310px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
-    right: 0px;
+    right: 0;
     margin-right: 66px;
   }
 }
@@ -148,7 +158,7 @@ export default {
     width: 330px;
     height: calc(330px * 143.6 / 70.9);
     top: calc((100vh - 330px * 143.6 / 70.9 - 3.6rem) / 2 + 3.6rem);
-    right: 0px;
+    right: 0;
     margin-right: 77px;
   }
 }

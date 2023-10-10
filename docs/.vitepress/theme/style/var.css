@@ -62,6 +62,9 @@
     --vp-resource-card-h3: #fff;
     --vp--works-card-light-color-one: rgba(29, 30, 31, 0);
     --vp--works-card-light-color-two: rgba(29, 30, 31, 0.1);
+    --vp-c-text-1: #fff;
+    /*--vp-c-text-2: #fff;*/
+    /*--vp-c-text-3: #fff;*/
 }
 
 .docs-cn-github-release-tag {
@@ -76,6 +79,6 @@
 
 @media (min-width: 1222px) {
     .VPDoc {
-        padding: 0 306px 32px 0px !important;
+        padding: 0 306px 32px 0 !important;
     }
 }

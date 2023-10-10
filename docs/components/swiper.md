@@ -61,7 +61,7 @@
 - `bottomRight`-指示器位于右下角
 
 ```vue
-<tn-swiper :list="list" mode="rect" :indicatorPosition="bottomLeft"></tn-swiper>
+<tn-swiper :list="list" mode="rect" indicatorPosition="bottomLeft"></tn-swiper>
 ```
 
 
