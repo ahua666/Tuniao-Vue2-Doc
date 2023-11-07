@@ -56,7 +56,7 @@
       }
     },
     methods: {
-      submit() {
+      upload() {
         this.$refs.imageUpload.upload()
       }
     }
