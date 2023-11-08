@@ -307,7 +307,7 @@ res = [
 | safeAreaInsetBottom |            开启底部安全区适配            | Boolean |  false   |       true       |
 |    maskCloseable    |           点击遮罩层可关闭选择器           | Boolean |   true   |      false       |
 |       zIndex        |          弹窗的`zIndex`值           | Number  |  20075   |        -         |
-|     searchShow      |             开启模糊搜索框             | Boolean |  false   |    true/false    |
+|     searchShow      |             开启模糊搜索框             | Boolean |   true   |    true/false    |
 |  searchPlaceholder  |       模糊搜索框描述 placeholder       | String  |    搜索    |        -         |
 
 
