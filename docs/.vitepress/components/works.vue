@@ -398,6 +398,19 @@ const WorkList = ref([{
   gitee: '',
   uniapp: 'https://ext.dcloud.net.cn/plugin?id=11115',
   link: ''
+},{
+  name: '执手相亲交友',
+  desc: '来执手相亲交友，谈场认真且不将就的恋爱吧！',
+  indexImg: 'https://img.ahuaaa.cn/img/20231122140641.png',
+  img: [
+    'https://img.ahuaaa.cn/img/20231122140801.png'
+  ],
+  tag: ['相亲交友APP',],
+  openSource: false,
+  github: '',
+  gitee: '',
+  uniapp: '',
+  link: 'https://a.app.qq.com/o/simple.jsp?pkgname=zs.weipaihudong.com'
 }, {
   name: '比比轻壁纸',
   desc: '基于微信Skyline渲染框架+图鸟Vue3组件开发的适合个人、学生、自媒体使用的清爽型壁纸下载小程序',
