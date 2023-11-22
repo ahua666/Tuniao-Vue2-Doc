@@ -9,6 +9,7 @@ import works from '../components/works.vue'
 import Colors from '../components/Colors.vue'
 import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
+import './rainbow.css'
 export default {
   ...Theme,
   enhanceApp({ app }) {

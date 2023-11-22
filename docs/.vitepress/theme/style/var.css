@@ -1,32 +1,34 @@
 :root {
     /* 标题 */
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #43CBFF 10%, #6e26ba 100%);
+    --vp-home-hero-name-background: -webkit-linear-gradient( 120deg, var(--vp-c-brand-1) 30%, var(--vp-c-brand-next) );
 
     /*--vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #FFA8A8 30%, #FCFF00);*/
     /* linear-gradient( -45deg, #FFA8A8 50%, #FCFF00 50%); */
     /* linear-gradient( -45deg, #bd34fe 50%, #47caff 50% ) */
     /* -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff ) */
     /* 图标背景 */
-    --vp-home-hero-image-background-image: linear-gradient(135deg, #43CBFF 10%, #6e26ba 100%);
+    --vp-home-hero-image-background-image: linear-gradient( -45deg, var(--vp-c-brand-1) 30%, var(--vp-c-brand-next) );
 
     /*--vp-home-hero-image-background-image: linear-gradient( -45deg, #ff8f8691 50%, #f1d06c 50%);*/
-    --vp-home-hero-image-filter: blur(56px);
+    --vp-home-hero-image-filter: blur(80px);
     /*background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);*/
     /* brand按钮 */
-    --vp-button-brand-border: #3668FC;
+    --vp-button-brand-border: var(--vp-c-brand);
     /*--vp-button-brand-border: #feb986;*/
     --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #3668FC;
+    --vp-button-brand-bg: var(--vp-c-brand-1);
     /* feb986 */
-    --vp-button-brand-hover-border: #3668FC;
-    --vp-button-brand-hover-text: #fff;
-    --vp-button-brand-hover-bg: #3668FC;
+    --vp-button-brand-hover-border: var(--vp-c-brand-light);
+    --vp-button-brand-hover-text: var(--vp-c-white);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+    --vp-button-brand-active-border: var(--vp-c-brand-light);
+    --vp-button-brand-active-text: var(--vp-c-white);
+    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
 
-    --vp-button-brand-active-border: #43CBFF;
     --c-brand: #feb986;
     --c-brand-light: #feb986;
-    --vp-button-brand-active-bg: #43CBFF;
+    /*--vp-button-brand-active-bg: #43CBFF;*/
 
     /*  NavBar 按钮*/
     /*  --vp-c-brand: var(--vp-c-green);*/
@@ -34,11 +36,12 @@
     /*  --vp-c-brand-lighter: var(--vp-c-green-lighter);*/
     /*  --vp-c-brand-dark: var(--vp-c-green-dark);*/
     /*  --vp-c-brand-darker: var(--vp-c-green-darker);*/
-    --vp-c-brand: #3668FC;
+
+    /*--vp-c-brand: #3668FC;
     --vp-c-brand-light: #3260e8;
     --vp-c-brand-lighter: #4164cc;
     --vp-c-brand-dark: #435ca6;
-    --vp-c-brand-darker: #455585;
+    --vp-c-brand-darker: #455585;*/
 
     --vp-custom-block-tip-border: #646cff;
     --vp-custom-block-tip-text: #4164cc;
