@@ -109,7 +109,7 @@ export default defineConfig({
             // {text: 'Vue3', link: ''},
             // {text: 'Gitee', link: ''},
             {
-                text: '资源',
+                text: '下载',
                 items: [
                     {text: 'Gitee', link: 'https://gitee.com/TSpecific/tuniao-ui'},
                     {text: 'Github', link: 'https://github.com/ahua666/tuniaoUI'},
