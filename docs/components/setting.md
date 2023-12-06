@@ -108,7 +108,7 @@ Vue.mixin(vuexStore)
 
 #### 6.配置easycom组件模式
 
-此配置需要在根目录的`page.json`中进行。
+此配置需要在根目录的`pages.json`中进行。
 
 ::: tip 温馨提示
 1. uni-app为了调试性能的原因，修改`easycom`规则不会实时生效，配置完后，您需要重启HBuilderX或者重新编译项目才能正常使用TuniaoUI的功能。
