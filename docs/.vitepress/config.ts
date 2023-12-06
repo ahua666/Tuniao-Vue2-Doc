@@ -252,35 +252,62 @@ export default defineConfig({
                     text: '炫酷模板',
                     collapsed: false,
                     items: [
-
-                        {text: '火箭登录', link: '/theme/login1'},
-                        {text: '粒子登录', link: '/theme/login2'},
-                        {text: '背景登录', link: '/theme/login3'},
-                        {text: '简约登录', link: '/theme/login4'},
-                        {text: '夏天个人', link: '/theme/my1'},
-                        {text: '图鸟个人', link: '/theme/my2'},
-                        {text: '外卖个人', link: '/theme/my3'},
-                        {text: '高端个人', link: '/theme/my4'},
-                        {text: '音乐首页', link: '/theme/music'},
-                        {text: '课程首页', link: '/theme/course'},
-                        {text: '设计首页', link: '/theme/design'},
-                        {text: '招聘首页', link: '/theme/job'},
-                        {text: '投屏首页', link: '/theme/screen'},
-                        {text: '壁纸首页', link: '/theme/wallpaper'},
-                        {text: '健康码', link: '/theme/qrcode'},
-                        {text: '关于我们', link: '/theme/about'},
-                        {text: '全新出发', link: '/theme/outset'},
-                        {text: '资讯左图', link: '/theme/article1'},
-                        {text: '资讯右图', link: '/theme/article2'},
-                        {text: '全屏轮播', link: '/theme/fullpage'},
-                        {text: '时钟', link: '/theme/clock'},
-                        {text: '加载动画', link: '/theme/AnimateLoading'},
-                        {text: '流星悬浮', link: '/theme/suspended'},
-                        {text: '随机粒子', link: '/theme/particle'},
-                        {text: '相册图集', link: '/theme/photo'},
-                        {text: '镂空效果', link: '/theme/hollow'},
-                        {text: '泡泡飘出', link: '/theme/bubble'},
-                        {text: 'CSS波浪', link: '/theme/wave'},
+                        {
+                            text: '登录注册',collapsed: false, items: [
+                                {text: '火箭登录', link: '/theme/login1'},
+                                {text: '粒子登录', link: '/theme/login2'},
+                                {text: '背景登录', link: '/theme/login3'},
+                                {text: '简约登录', link: '/theme/login4'},
+                            ]
+                        },
+                        {
+                            text: '个人中心', collapsed: false, items: [
+                                {text: '夏天个人', link: '/theme/my1'},
+                                {text: '图鸟个人', link: '/theme/my2'},
+                                {text: '外卖个人', link: '/theme/my3'},
+                                {text: '高端个人', link: '/theme/my4'},
+                            ]
+                        },
+                        {
+                            text: '常用首页', collapsed: false, items: [
+                                {text: '音乐首页', link: '/theme/music'},
+                                {text: '课程首页', link: '/theme/course'},
+                                {text: '设计首页', link: '/theme/design'},
+                                {text: '招聘首页', link: '/theme/job'},
+                                {text: '投屏首页', link: '/theme/screen'},
+                                {text: '壁纸首页', link: '/theme/wallpaper'},
+                            ]
+                        },
+                        {
+                            text: '骚气页面', collapsed: false, items: [
+                                {text: '健康码', link: '/theme/qrcode'},
+                                {text: '关于我们', link: '/theme/about'},
+                                {text: '全新出发', link: '/theme/outset'},
+                                {text: '资讯左图', link: '/theme/article1'},
+                                {text: '资讯右图', link: '/theme/article2'},
+                                {text: '全屏轮播', link: '/theme/fullpage'},
+                                {text: '时钟', link: '/theme/clock'},
+                            ]
+                        },
+                        {
+                            text: '加载动画', collapsed: false, items: [
+                                {text: '加载动画1', link: '/theme/AnimateLoading'},
+                                {text: '加载动画2', link: '/theme/AnimateLoading2'},
+                                {text: '加载动画3', link: '/theme/AnimateLoading3'},
+                                {text: '加载动画4', link: '/theme/AnimateLoading4'},
+                                {text: '加载动画5', link: '/theme/AnimateLoading5'},
+                            ]
+                        },
+                        {
+                            text: '动效元素', collapsed: false, items: [
+                                {text: '流星悬浮', link: '/theme/suspended'},
+                                {text: '随机粒子', link: '/theme/particle'},
+                                {text: '相册图集', link: '/theme/photo'},
+                                {text: '镂空效果', link: '/theme/hollow'},
+                                {text: '泡泡飘出', link: '/theme/bubble'},
+                                {text: 'CSS波浪', link: '/theme/wave'},
+                            ]
+                        },
                         {text: '3D全景', link: '/theme/pano'}
                     ]
                 },
@@ -329,6 +356,7 @@ export default defineConfig({
                         {text: '瀑布流', link: '/theme/vip/waterfall'},
                         {text: '树形菜单', link: '/theme/vip/tree-view'},
                         {text: '表格', link: '/theme/vip/table'},
+                        {text: '取色器', link: '/theme/vip/color'},
                         {text: '图鸟轮播(实验)', link: '/theme/vip/custom-swiper'},
                         {text: '短视频', link: '/theme/vip/short-video'},
                         {text: '外卖模板', link: '/theme/vip/walking-route'}
