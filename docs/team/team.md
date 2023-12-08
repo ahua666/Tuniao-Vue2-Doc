@@ -105,7 +105,7 @@ const members =ref([
     avatar: '/common/akai.jpg',
     name: '阿凯',
     title: '前端开发 · 四川 成都',
-    desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持。</br></br>介绍：vue、uniapp、Web、H5、原生小程序、后台。',
+    desc:'职责：负责为TuniaoUi的用户或社区开发者答疑解惑，提供技术支持和生态维护。</br></br>2年开发经验，uniapp、web、h5、原生小程序、后台、vite/vuepress。幽默诙谐的一位车手常在TuniaoUi社区异常活跃!',
     links: [
       { icon: 'github', link: 'https://github.com/akaibiu' },
       { icon: {
@@ -143,7 +143,7 @@ const members =ref([
     avatar: '/common/xiaoxu.png',
     name: '小许同学',
     title: '前端开发 · 河南 郑州',
-    desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持，技术生态支持者</br></br>介绍：想的多了全是问题 做的多了全是答案！喜欢挑战新技术，研究一些奇奇怪怪的技术点，社牛一只，入圈以来，已经认了两只外甥。主要技术栈：Vue'
+    desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持，技术生态支持者</br></br>介绍：想的多了全是问题 做的多了全是答案！喜欢挑战新技术，研究一些奇奇怪怪的技术点，社牛一只，入圈以来，已经认了两只外甥。主要技术栈：Vue2/3、unipp、uniCloud、node.js'
   },{
     avatar: '/common/Mandy.png',
     name: 'Mandy',
