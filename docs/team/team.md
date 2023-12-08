@@ -163,6 +163,11 @@ const members =ref([
     name: 'ww',
     title: '全栈开发 · 广东 深圳',
     desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持</br></br>介绍：8年开发经验 uniapp，vue2，node，java，C#，go，python，C，C++。时不时带货主播，CV大师'
+  },{
+    avatar: '/common/Aisen.png',
+    name: 'Aisen',
+    title: '资深研发工程师 · 广东 广州',
+    desc:'职责：负责TuniaoUI的用户答疑并提供企业级解决方案，生态维护</br></br>介绍：6年研发工作经验，丰富的ToC、ToB经验，连续3年获取企业优秀员工奖，自研发微服务框架、二开过Canal，不仅后端能打，前端也是一把好手！'
   }
 ]
 )
