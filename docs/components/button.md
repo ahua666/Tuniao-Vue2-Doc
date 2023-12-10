@@ -69,8 +69,8 @@
 
 ### Props
 
-|      属性名      |              说明               |      类型      | 默认值  |                        可选值                         |
-| :--------------: | :-----------------------------: | :------------: | :-----: | :---------------------------------------------------: |
+|      属性名      |              说明               |       类型       | 默认值  |                        可选值                         |
+| :--------------: | :-----------------------------: |:--------------:| :-----: | :---------------------------------------------------: |
 |      index       |   用于区分多个按钮的点击事件    | String\|Number |    0    |                           -                           |
 | backgroundColor  |            背景颜色             |     String     | #FFFFFF | 颜色的十六进制值，rgba(),rgb(),TuniaoUI内置的颜色类名 |
 |    fontColor     |            字体颜色             |     String     |    -    | 颜色的十六进制值，rgba(),rgb(),TuniaoUI内置的颜色类名 |
@@ -92,6 +92,8 @@
 |     formType     |       form表单触发的类型        |     String     |    -    |                     submit/reset                      |
 |     openType     |            开放能力             |     String     |    -    |                  参考uni-app官方文档                  |
 | blockRepeatClick |          阻止重复点击           |    Boolean     |  false  |                         true                          |
+| scene |          场景：（如果开启blockRepeatClick，这里无效）none ： 不开启防抖节流模式，debounce ：防抖模式 throttle：节流模式           |     String     |  none  |                         true                          |
+| blockTime |          防抖节流间隔时间（毫秒）           |    Number     |  200  |                         true                          |
 
 
 
