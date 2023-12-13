@@ -105,7 +105,7 @@ const members =ref([
     avatar: '/common/akai.jpg',
     name: '阿凯',
     title: '前端开发 · 四川 成都',
-    desc:'职责：负责为TuniaoUi的用户或社区开发者答疑解惑，提供技术支持和生态维护。</br></br>2年开发经验，uniapp、web、h5、原生小程序、后台、vite/vuepress。幽默诙谐的一位车手常在TuniaoUi社区异常活跃!',
+    desc:'职责：负责为TuniaoUi用户或社区开发者答疑解惑，提供技术支持和生态维护</br></br>2年开发经验，uniapp、web、h5、原生小程序、后台、vite/vuepress。幽默诙谐常在TuniaoUi社区异常活跃!',
     links: [
       { icon: 'github', link: 'https://github.com/akaibiu' },
       { icon: {
