@@ -26,7 +26,7 @@
 
 ### 设置按钮的颜色
 
-可以通过`backgrundColor`和`fontColor`来设置颜色信息。设置按钮的颜色可以使用TuniaoUI内置样式中的颜色值进行设置
+可以通过`backgroundColor`和`fontColor`来设置颜色信息。设置按钮的颜色可以使用TuniaoUI内置样式中的颜色值进行设置
 
 ```vue
 <tn-button backgroundColor="#01BEFF" fontColor="#080808">自定义颜色按钮</tn-button>
