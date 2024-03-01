@@ -10,8 +10,9 @@
           <el-col v-for="(item,index) in WorkList" :key="index" :xl="8" :lg="8" :md="12" :sm="12"  :xs="24"
                   @click="openDialog">
             <el-card class="box-card" shadow="always" @click="openDialog(item)">
-              <span v-show="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
-              <span v-show="!item.openSource" class="site-card-tag2 speed">群友<i class="light"></i></span>
+              <span v-if="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
+              <span v-if="item.recommend" class="site-card-tag3 speed">推荐<i class="light"></i></span>
+              <span v-else-if="!item.openSource" class="site-card-tag2 speed">群友<i class="light"></i></span>
               <div style="display: flex;flex-direction: column;">
                 <div style="display: flex">
                   <el-image
@@ -248,6 +249,19 @@ a {
   transition: 0.3s;
   font-size: 0.6rem;
 }
+.site-card-tag3 {
+  position: relative;
+  top: -22px;
+  left: -20px;
+  padding: 4px 8px;
+  background-color: #d52b2b;
+  box-shadow: 0 8px 12px -3px rgba(40, 109, 234, .20);;
+  color: #fff;
+  z-index: 1;
+  border-radius: 12px 0 12px 0;
+  transition: 0.3s;
+  font-size: 0.6rem;
+}
 
 .light {
   //cursor: pointer;
@@ -305,7 +319,7 @@ const openDialog = (item) => {
 };
 
 function shuffleArray(array) {
-  const firstFive = array.slice(0, 6);
+  const firstFive = array.slice(0, 7);
   const remaining = array.slice(6);
 
   for (let i = firstFive.length - 1; i > 0; i--) {
@@ -326,6 +340,20 @@ onMounted(() => {
 });
 const dialogVisible = ref(false);
 const WorkList = ref([{
+  name: '我的上铺',
+  indexImg: 'https://img.ahuaaa.cn/img/AgAABjdJSeM7GY_7L3RLlqFjCJser4MI.png',
+  desc: '运营了6年的外卖平台小程序，功能完善，营销功能丰富，最新版本重构使用的是图鸟ui进行开发，酷炫简约',
+  img: [
+    'https://img.ahuaaa.cn/img/20240302000702.png'
+  ],
+  tag: ['外卖','快送',],
+  openSource: false,
+  //是否显示推荐
+  recommend: true,
+  github: '',
+  gitee: 'https://gitee.com/sunjulee/xjppt-app',
+  uniapp: ''
+},{
   name: '小鸡PPT',
   indexImg: 'https://img.ahuaaa.cn/img/20230707143849.png',
   desc: '免费下载PPT，提供优质、丰富、高效的PPT模板',
@@ -722,6 +750,28 @@ const WorkList = ref([{
       'https://pans.ahuaaa.cn/docsimg/works/wangzhanguanjia-wx.png'
     ],
     tag: ['WordPress', '管家'],
+    openSource: false,
+    github: '',
+    gitee: '',
+  },{
+    name: '头像制作神器',
+    desc: '基于图鸟Vue2的一款头像制作、图片处理小程序',
+    indexImg: 'https://img.ahuaaa.cn/img/20240302000356.png',
+    img: [
+      'https://img.ahuaaa.cn/img/20240302000356.png'
+    ],
+    tag: ['图片处理'],
+    openSource: false,
+    github: '',
+    gitee: '',
+  },{
+    name: '椰天下',
+    desc: '椰天下小程序提供周边生活信息',
+    indexImg: 'https://img.ahuaaa.cn/img/20240302000504.png',
+    img: [
+      'https://img.ahuaaa.cn/img/20240302000504.png'
+    ],
+    tag: ['圈子', '生活'],
     openSource: false,
     github: '',
     gitee: '',
