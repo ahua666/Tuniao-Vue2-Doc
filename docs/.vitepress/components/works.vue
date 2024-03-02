@@ -351,7 +351,7 @@ const WorkList = ref([{
   //是否显示推荐
   recommend: true,
   github: '',
-  gitee: 'https://gitee.com/sunjulee/xjppt-app',
+  gitee: '',
   uniapp: ''
 },{
   name: '小鸡PPT',
