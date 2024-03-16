@@ -103,6 +103,12 @@ export default defineConfig({
             {text: '社区', link: '/Community/Community'},
             {text: '作品', link: '/works/works'},
             {text: '团队', link: '/team/team'},
+            {text: '模板市场', link: 'https://templatemarket.tuniaokj.com/'},
+            {
+                text: '合作伙伴', items: [
+                    {text: '海狐外卖跑腿系统', link: 'https://www.seafox.cc/'},
+                ],
+            },
             {text: '图标', link: 'https://icon.ahuaaa.cn/#/'},
             {text: 'Vue3', link: 'https://vue3.tuniaokj.com/'},
             // {text: '图标', link: ''},
@@ -113,7 +119,8 @@ export default defineConfig({
                 items: [
                     {text: 'Gitee', link: 'https://gitee.com/TSpecific/tuniao-ui'},
                     {text: 'Github', link: 'https://github.com/ahua666/tuniaoUI'},
-                    {text: '插件市场', link: 'https://ext.dcloud.net.cn/publisher?id=356088'}
+                    {text: '插件市场', link: 'https://ext.dcloud.net.cn/publisher?id=356088'},
+
                 ]
             }
         ],
@@ -253,7 +260,7 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                         {
-                            text: '登录注册',collapsed: false, items: [
+                            text: '登录注册', collapsed: false, items: [
                                 {text: '火箭登录', link: '/theme/login1'},
                                 {text: '粒子登录', link: '/theme/login2'},
                                 {text: '背景登录', link: '/theme/login3'},
