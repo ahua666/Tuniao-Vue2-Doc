@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      baseUrl: 'https://vue2demo.tuniaokj.com/#',
+      baseUrl: 'https://tuniao.ahuaaa.cn/#',
       isShow: true,
     }
   },
