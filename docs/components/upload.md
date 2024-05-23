@@ -306,6 +306,7 @@
 |:---------------------:|:-----------------------------------------------------------------------:|:--------------:|:----------------------------------------------:|:-----:|
 |         index         |                              标记多个图片上传组件的标识                              | Number\|String |                       -                        |   -   |
 |        action         |                                 上传图片地址                                  |     String     |                       -                        |   -   |
+|        isUniCloud         |                               UniCloud上传                                |    Boolean     |                     false                      | true  |
 |       fileList        |                          默认显示的上传列表，必须有`url`属性                           |     Array      |                       -                        |   -   |
 |       disabled        |                                  禁止上传                                   |    Boolean     |                     false                      | true  |
 |      autoUpload       |                              自动上传，选择完图片后触发                              |    Boolean     |                      true                      | false |
