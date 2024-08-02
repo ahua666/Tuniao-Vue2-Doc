@@ -27,7 +27,7 @@
   <tn-swiper :list="list"></tn-swiper>
 </template>
 
-<style>
+<script>
   export default {
     data() {
       list: [
@@ -36,7 +36,7 @@
       ]
     }
   }
-</style>
+</script>
 ```
 
 
