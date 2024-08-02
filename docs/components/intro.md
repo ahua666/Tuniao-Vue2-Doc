@@ -161,6 +161,69 @@ TuniaoUI开源组件遵循[apache](https://baike.baidu.com/item/apache/6848636?f
 			</div>
 		</div>
     </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/12_人脉交友.jpg" />
+			<div class="platform-name">
+				人脉交友
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/13_猛犸空间.jpg" />
+			<div class="platform-name">
+				猛犸空间
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/14_教育学院.jpg" />
+			<div class="platform-name">
+				教育学院
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/15_花艺商城.jpg" />
+			<div class="platform-name">
+				花艺商城
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/16_图鸟官网-v3.jpg" />
+			<div class="platform-name">
+				图鸟官网-v3
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/17_图鸟图表vue3.jpg" />
+			<div class="platform-name">
+				图鸟图表vue3
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
+    <el-col :xs="24" :sm="8" :md="8" :lg="8" :xl="6">
+		<div class="demo-item">
+			<img src="../.vitepress/public/common/xcx/17_图鸟图表原生.jpg" />
+			<div class="platform-name">
+				图鸟图表原生
+				<p class="platform-tips">只能微信扫码</p>
+			</div>
+		</div>
+    </el-col>
 </el-row>
 
 <style scoped>
