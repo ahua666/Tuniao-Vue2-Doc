@@ -359,7 +359,7 @@ export default defineConfig({
                         {text: 'StackSwiper堆叠轮播', link: '/theme/vip/stack-swiper'},
                         {text: '重力首页', link: '/theme/vip/page1'},
                         {text: '自定义下拉刷新', link: '/theme/vip/scroll-view'},
-                        {text: '级联选择', link: '/theme/vip/cascade-selectio'},
+                        {text: '级联选择', link: '/theme/vip/cascade-selection'},
                         {text: '瀑布流', link: '/theme/vip/waterfall'},
                         {text: '树形菜单', link: '/theme/vip/tree-view'},
                         {text: '表格', link: '/theme/vip/table'},
