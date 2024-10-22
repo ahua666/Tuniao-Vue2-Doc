@@ -32,6 +32,10 @@ export default {
           name: '官方3群',
           groupID: '313825364',
           groupLink: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=G9X9hC1C_RhE5J0xb6JisPc5W1xqcOFI&authKey=jG%2FCwCXna6eAe3VjYDV%2FlBeaAzF9aYnrZOKDSD12LzT%2FyXXdDrLmTVsWVlNOjKKk&noverify=0&group_code=313825364'
+        },{
+          name: '官方4群',
+          groupID: '336176833',
+          groupLink: 'https://qm.qq.com/q/3ySZT93Hsk'
         },
       ]
     }
