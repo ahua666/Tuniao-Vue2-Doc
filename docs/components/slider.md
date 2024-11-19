@@ -58,7 +58,7 @@
 :::
 
 ```vue
-<tn-slider v-model="value" :mix="20" :max="60" :step="5"></tn-slider>
+<tn-slider v-model="value" :min="20" :max="60" :step="5"></tn-slider>
 ```
 
 
