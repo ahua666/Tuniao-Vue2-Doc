@@ -42,7 +42,7 @@
 设置`min`和`max`可以设置滑动条的最小最大值。
 
 ```vue
-<tn-slider v-model="value" :mix="20" :max="60"></tn-slider>
+<tn-slider v-model="value" :min="20" :max="60"></tn-slider>
 ```
 
 
