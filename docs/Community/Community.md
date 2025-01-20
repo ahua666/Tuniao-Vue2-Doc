@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img class="comm-img" style="max-width: 1250px;margin: 0 auto!important;padding-top: 66px" src="https://pans.ahuaaa.cn/docsimg/banner-emoji.jpg" alt="">
+<img class="comm-img" style="max-width: 1250px;margin: 0 auto!important;padding-top: 66px" src="../.vitepress/public/common/other/banner-emoji.jpg" alt="">
         <Twikoo/>
 
 

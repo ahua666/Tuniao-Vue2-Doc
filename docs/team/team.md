@@ -29,17 +29,20 @@ function shuffleArray(array) {
 }
 const members =ref([
   {
-    avatar: '/common/kewohuixiang.jpg',
+    avatar: '/.vitepress/public/common/team/kewohuixiang.jpg',
     name: '可我会像',
-    title: '全栈开发 · 广东 广州',
-    desc:'职责：负责产品经理、前端开发等工作</br></br>介绍：图鸟背锅侠',
+    title: '背锅的 · 广东 广州',
+    desc:'职责：负责产品经理、打杂等工作</br></br>介绍：图鸟CEO（背锅侠）</br> 你骂图鸟，我就认错</br>你喷图鸟，我就认怂',
     links: [
         { icon: {
             svg: '<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6476" width="24" height="24"><path d="M512 0C230.4 0 0 230.4 0 512s230.4 512 512 512 512-230.4 512-512-230.4-512-512-512z m70.4 678.4l-128 108.8c-25.6 19.2-57.6 32-89.6 32-44.8 0-89.6-19.2-121.6-57.6-57.6-64-51.2-160 6.4-211.2l64-51.2c12.8-12.8 38.4-12.8 51.2 6.4 12.8 12.8 12.8 38.4-6.4 51.2l-64 51.2c-32 25.6-32 70.4 0 108.8 32 32 76.8 44.8 108.8 19.2l128-108.8c32-25.6 32-70.4 0-108.8-12.8-19.2-6.4-44.8 6.4-57.6 19.2-12.8 38.4-12.8 51.2 6.4 57.6 64 51.2 160-6.4 211.2z m211.2-179.2l-64 51.2c-12.8 12.8-38.4 12.8-51.2-6.4-12.8-12.8-12.8-38.4 6.4-51.2l64-51.2c32-25.6 32-70.4 0-108.8-32-32-76.8-44.8-108.8-19.2L512 422.4c-19.2 12.8-25.6 32-25.6 51.2s6.4 44.8 19.2 57.6 12.8 38.4-6.4 51.2c-12.8 6.4-38.4 12.8-57.6-6.4-25.6-32-32-64-32-102.4s19.2-76.8 51.2-102.4l128-108.8c57.6-51.2 153.6-38.4 211.2 25.6 57.6 64 51.2 160-6.4 211.2z" p-id="6477"></path></svg>'
-          }, link: 'https://ext.dcloud.net.cn/publisher?id=356088' }
+          }, link: 'https://vue2.tuniaokj.com/' },
+        { icon: {
+            svg: '<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6476" width="24" height="24"><path d="M512 0C230.4 0 0 230.4 0 512s230.4 512 512 512 512-230.4 512-512-230.4-512-512-512z m70.4 678.4l-128 108.8c-25.6 19.2-57.6 32-89.6 32-44.8 0-89.6-19.2-121.6-57.6-57.6-64-51.2-160 6.4-211.2l64-51.2c12.8-12.8 38.4-12.8 51.2 6.4 12.8 12.8 12.8 38.4-6.4 51.2l-64 51.2c-32 25.6-32 70.4 0 108.8 32 32 76.8 44.8 108.8 19.2l128-108.8c32-25.6 32-70.4 0-108.8-12.8-19.2-6.4-44.8 6.4-57.6 19.2-12.8 38.4-12.8 51.2 6.4 57.6 64 51.2 160-6.4 211.2z m211.2-179.2l-64 51.2c-12.8 12.8-38.4 12.8-51.2-6.4-12.8-12.8-12.8-38.4 6.4-51.2l64-51.2c32-25.6 32-70.4 0-108.8-32-32-76.8-44.8-108.8-19.2L512 422.4c-19.2 12.8-25.6 32-25.6 51.2s6.4 44.8 19.2 57.6 12.8 38.4-6.4 51.2c-12.8 6.4-38.4 12.8-57.6-6.4-25.6-32-32-64-32-102.4s19.2-76.8 51.2-102.4l128-108.8c57.6-51.2 153.6-38.4 211.2 25.6 57.6 64 51.2 160-6.4 211.2z" p-id="6477"></path></svg>'
+          }, link: 'https://vue3.tuniaokj.com/' }
     ]
   },{
-    avatar: 'https://q1.qlogo.cn/g?b=qq&nk=3156027735&s=640',
+    avatar: '/.vitepress/public/common/team/xxstar.jpg',
     name: 'Star',
     title: '全栈开发 · 浙江 嘉兴',
     links: [
@@ -53,7 +56,7 @@ const members =ref([
     ],
     desc:'职责：负责TuniaoUI核心组件研发，维护与升级，文档维护等工作</br></br>介绍：丰富的物联网app和B端开发经验。node.js、SpringBoot、C#、vue2、vue3、uniapp、flutter等'
   },{
-    avatar: '/common/Jaylen.jpg',
+    avatar: '/.vitepress/public/common/team/Jaylen.jpg',
     name: 'Jaylen',
     title: '全栈开发 · 广东 广州',
     desc:'职责：负责TuniaoUI技术架构与实施，组织架构设计与升级优化等工作</br></br>介绍：丰富的嵌入式、C端开发经验。Java、PHP、C、vue2/3、uniapp等',
@@ -61,22 +64,27 @@ const members =ref([
         { icon: "github", link: "https://github.com/HighSpecific" }
     ]
   },{
-    avatar: '/common/yuanyuan.jpg',
+    avatar: '/.vitepress/public/common/team/bz.jpg',
+    name: '%8',
+    title: '高级前端开发 · 广东 深圳',
+    desc:'职责：负责前端开发</br></br>介绍：负责图鸟UI vue2组件库更新，组件的维护，丰富的C端开发经验。vue2/3、uniapp等'
+  },{
+    avatar: '/.vitepress/public/common/team/yuanyuan.jpg',
     name: '圆圆',
     title: '高级设计师 · 广东 广州',
     desc:'职责：负责UI设计、客户咨询</br></br>介绍：肥姑妈、sketch、即时设计、PS、Ai、Axure、墨刀、xiaopiu等'
   },{
-    avatar: '/common/buxuxiongwo.jpg',
+    avatar: '/.vitepress/public/common/team/buxuxiongwo.jpg',
     name: '不许凶我',
     title: '高级设计师 · 浙江 杭州',
     desc:'职责：负责UI设计、与产品经理沟通交互体验设计</br></br>介绍：设计工具：PS、Ai、肥姑妈、AE、搅拌机、C4D等'
   },{
-    avatar: '/common/roubao.jpg',
+    avatar: '/.vitepress/public/common/team/roubao.jpg',
     name: '肉包',
     title: '高级设计师 · 广东 广州',
     desc:'职责：负责UI设计、与产品经理沟通交互体验设计</br></br>介绍：Ps / Ai / AE / Figma / blender / Sketch / Axure / Xmind / 即时设计 / C4D等'
   },{
-    avatar: '/common/LEELAA.jpg',
+    avatar: '/.vitepress/public/common/team/LEELAA.jpg',
     name: 'LEELAA',
     title: '高级前端开发 · 江苏 苏州',
     desc:'职责：负责前端开发、云开发</br></br>介绍：8年前端开发经验。丰富的B端C端开发经验。vue2/3、react、svelte、vite、uniapp、trao、node.js 业余情感电台主播。高压电工。资深强迫症。喜爱美食，顿顿吃肉。小程序全能系列作者。',
@@ -87,22 +95,22 @@ const members =ref([
       }, link: 'https://gitee.com/leedaisen' }
     ]
   },{
-    avatar: '/common/hanlele.jpg',
+    avatar: '/.vitepress/public/common/team/hanlele.jpg',
     name: '韩乐乐',
     title: '高级项目经理 · 广东 佛山',
     desc:'职责：负责项目实施统筹、运营推广等工作</br></br>介绍：互联网连续创业者，拥有丰富的saas系统、erp系统、外卖点餐商业项目运营经验，资源整合能力强'
   },{
-    avatar: '/common/tu.jpg',
+    avatar: '/.vitepress/public/common/team/tu.jpg',
     name: '弃续',
     title: '前端开发 · 广东 广州',
     desc:'职责：负责TuniaoUI核心组件研发，维护与升级，技术支持等工作</br></br>介绍：后端转前端、有一定的开发逻辑经验。vue2，vue3，ts，uniapp，uniCloud等'
   },{
-    avatar: '/common/Fa1Zz.jpg',
+    avatar: '/.vitepress/public/common/team/Fa1Zz.jpg',
     name: 'Fa1Zz',
     title: '前端开发 · 广东 佛山',
     desc:'职责：负责TuniaoUI文档维护与升级，技术支持等工作</br></br>介绍：前端开发'
   },{
-    avatar: '/common/akai.jpg',
+    avatar: '/.vitepress/public/common/team/akai.jpg',
     name: '阿凯',
     title: '前端开发 · 四川 成都',
     desc:'职责：负责为TuniaoUi用户或社区开发者答疑解惑，提供技术支持和生态维护</br></br>2年开发经验，uniapp、web、h5、原生小程序、后台、vite/vuepress。幽默诙谐常在TuniaoUi社区异常活跃!',
@@ -116,17 +124,17 @@ const members =ref([
       }, link: 'https://salephine.asia' }
     ]
   },{
-    avatar: '/common/bairi.jpg',
+    avatar: '/.vitepress/public/common/team/bairi.jpg',
     name: '白日梦想家',
     title: '全栈开发 · 北京 朝阳',
     desc:'职责：图鸟uni_modules的封装和维护，为群友提供技术解答，技术支持等工作</br></br>介绍：php,e,vue,python,智能合约,tradingview,量化策略'
   },{
-    avatar: '/common/mengxia.png',
+    avatar: '/.vitepress/public/common/team/mengxia.png',
     name: '孟夏乾月',
     title: '前端开发 · 浙江 杭州',
     desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持。</br></br>介绍：4年开发经验 uniapp，unicloud，vue2/3，vite，node.js，react，ts，小程序等'
   },{
-    avatar: '/common/nroy.png',
+    avatar: '/.vitepress/public/common/team/nroy.png',
     name: 'Nroy',
     title: '全栈开发 · 四川 成都',
     desc:'职责：负责为TuniaoUI的用户提供技术支持，生态维护</br></br>介绍：Php / Java / Nodejs / Python / Vue.js / Swift / C# / Frida / Pytorch </br>以爱好为职业，实现自我。',
@@ -140,12 +148,12 @@ const members =ref([
       }, link: 'https://www.nnnuo.com' }
     ]
   },{
-    avatar: '/common/xiaoxu.png',
+    avatar: '/.vitepress/public/common/team/xiaoxu.png',
     name: '小许同学',
     title: '前端开发 · 河南 郑州',
     desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持，技术生态支持者</br></br>介绍：想的多了全是问题 做的多了全是答案！喜欢挑战新技术，研究一些奇奇怪怪的技术点，社牛一只，入圈以来，已经认了两只外甥。主要技术栈：Vue2/3、unipp、uniCloud、node.js'
   },{
-    avatar: '/common/Mandy.png',
+    avatar: '/.vitepress/public/common/team/Mandy.png',
     name: 'Mandy',
     title: '资深服务端开发工程师 · 上海 静安',
     desc:'职责：负责为TuniaoUI的Gitee代码维护，图鸟UI vue2.0仓库维护者</br></br>介绍：擅长后端架构设计，掌握多门后端语言。兔兔找图开源作者，兔兔答题开发者。立志于成为一名独立开发者。',
@@ -159,18 +167,18 @@ const members =ref([
       }, link: 'https://www.tutudati.com' }
     ]
   },{
-    avatar: '/common/ww.jpg',
+    avatar: '/.vitepress/public/common/team/ww.jpg',
     name: 'ww',
     title: '全栈开发 · 广东 深圳',
     desc:'职责：负责为TuniaoUI的用户答疑解惑提供技术支持</br></br>介绍：8年开发经验 uniapp，vue2，node，java，C#，go，python，C，C++。时不时带货主播，CV大师'
   },{
-    avatar: '/common/Aisen.png',
+    avatar: '/.vitepress/public/common/team/Aisen.png',
     name: 'Aisen',
     title: '资深研发工程师 · 广东 广州',
     desc:'职责：负责TuniaoUI的用户答疑并提供企业级解决方案，生态维护</br></br>介绍：6年研发工作经验，丰富的ToC、ToB经验，连续3年获取企业优秀员工奖，自研发微服务框架、二开过Canal，不仅后端能打，前端也是一把好手！'
   },{
     name: 'AMEN',
-    avatar: '/common/AMEN.jpg',
+    avatar: '/.vitepress/public/common/team/AMEN.jpg',
     links: [
       { icon: 'github', link: 'https://github.com/2331892928' },
       { icon: {
@@ -187,16 +195,9 @@ const members =ref([
 </script>
 
 <VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>
-      关于我们
-    </template>
-    <template #lead>
-    以下为Tuniao UI研发团队，排名不分先后：
-    </template>
-  </VPTeamPageTitle>
-  <VPTeamMembers
-    :members="members"
-  />
-
+  <div class="" style="text-align:center;margin-top: -60px">
+		<div class="" style="font-size: 30px">关于我们</div>
+		<p class="" style="padding: 20px">以下为Tuniao UI 生态团队，排名不分先后：</p>
+	</div>
+  <VPTeamMembers :members="members"/>
 </VPTeamPage>

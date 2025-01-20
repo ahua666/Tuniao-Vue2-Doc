@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "element-plus": "^2.3.12",
+    "responsively-lazy": "^3.2.1",
     "vitepress": "^1.0.0-rc.10",
     "vue": "^3.2.47"
   },

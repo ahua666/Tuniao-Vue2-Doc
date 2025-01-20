@@ -98,9 +98,9 @@ Vue.mixin(vuexStore)
 
 ```scss
 <style lang="scss">
-                    /* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
-@import './tuniao-ui/index.scss';
-@import './tuniao-ui/iconfont.css';
+  /* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
+  @import './tuniao-ui/index.scss';
+  @import './tuniao-ui/iconfont.css';
 </style>
 ```
 
@@ -142,5 +142,5 @@ Vue.mixin(vuexStore)
 
 
 <div class="col-md-24 col-sm-24 col-xs-24">
-<iframe style="width: 80%;height: 720px;margin: 20px" src="//player.bilibili.com/player.html?aid=262383566&bvid=BV1Se411F7du&cid=886418409&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe style="width: 100%;height: 470px;margin: 20px 0 0 0;border-radius:10px" src="//player.bilibili.com/player.html?aid=262383566&bvid=BV1Se411F7du&cid=886418409&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>

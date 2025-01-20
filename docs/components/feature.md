@@ -14,9 +14,11 @@ TuniaoUI的组件引入是通过easycom形式的，写在`page.json`中，以`tn
 
 ```vue
 <template>
-  <tuniao-button backgroundColor="#01BEFF" :plain="true">
-    点击进行登录
-  </tuniao-button>
+  <view>
+    <tuniao-button backgroundColor="#01BEFF" :plain="true">
+      点击进行登录
+    </tuniao-button>
+  </view>
 </template>
 
 <script>
