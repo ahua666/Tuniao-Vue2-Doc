@@ -7,9 +7,12 @@
 
 ```vue
 <template>
-  <tn-button backgroundColor="#01BEFF" :plain="true">
-    点击进行登录
-  </tn-button>
+  <!-- 用一个view包着 -->
+  <view>
+    <tn-button backgroundColor="#01BEFF" :plain="true">
+      点击进行登录
+    </tn-button>
+  </view>
 </template>
 
 <script>
@@ -32,9 +35,11 @@
 
 ```vue
 <template>
-  <tn-button backgroundColor="#01BEFF" :plain="true">
-    点击进行登录
-  </tn-button>
+  <view>
+    <tn-button backgroundColor="#01BEFF" :plain="true">
+      点击进行登录
+    </tn-button>
+  </view>
 </template>
 
 <script>

@@ -16,7 +16,7 @@
       <div class="custom-block tip">
         <p class="custom-block-title">提示</p>
         <p>
-          会员模板获取赞助请联系微信(注明赞助)：tnkewo
+          会员模板获取赞助请联系微信(注明 赞助)：tnkewo
         </p>
       </div>
 

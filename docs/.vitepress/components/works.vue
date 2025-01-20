@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="container-app" style="margin-top: 20px">
-      <h3>作品推荐({{ WorkList.length }})</h3>
-      <h4>作品收集，为基于图鸟UI开发的相关作品项目引流，展示在使用文档上，后续展示在模板市场上
+    <div class="container-app" style="margin-top: 40px;margin-bottom: 40px">
+      <h3>作品推荐 {{ WorkList.length }} 个</h3>
+      <h4>作品收集，为基于图鸟UI开发的相关作品项目引流，展示在使用文档上
 
-        图鸟UI一直在努力做的更好，2023年，也将做的更好。</h4>
+        图鸟UI一直在努力做的更好，2025年，也将做的更好。</h4>
       <div style="margin: 0 auto">
         <el-row :gutter="20" style="margin-top: 20px;">
           <el-col v-for="(item,index) in WorkList" :key="index" :xl="8" :lg="8" :md="12" :sm="12"  :xs="24"
                   @click="openDialog">
-            <el-card class="box-card" shadow="always" @click="openDialog(item)">
+            <div class="works-card" @click="openDialog(item)">
               <span v-if="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
               <span v-if="item.recommend" class="site-card-tag3 speed">推荐<i class="light"></i></span>
               <span v-else-if="!item.openSource" class="site-card-tag2 speed">群友<i class="light"></i></span>
@@ -19,9 +19,9 @@
                       :src="item.indexImg"
                       class="Star-img"
                       fit="fill"
-                      style="width: 80px; height: 80px;box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);"></el-image>
+                      style="width: 80px; height: 80px;border:1px #dedede solid;"></el-image>
                   <div>
-                    <div style="font-size: 18px;font-weight: bold;margin: 14px 0px 12px 15px;">
+                    <div style="font-size: 18px;font-weight: bold;margin: 14px 0px 12px 15px;text-align: left;">
                       {{ item.name }}
                       <a v-if="item.uniapp" :href="item.uniapp" target="_blank" @click.stop><span
                           class="iconfont">&#xe609;</span></a>
@@ -32,15 +32,15 @@
                     </div>
                     <div style="display: flex">
                       <div v-for="(item2,index2) in item.tag"
-                           style="margin: 0px 0px 0px 15px; border:1px #dedede solid;border-radius: 12px;padding: 3px 6px 4px 8px;">
+                           style="margin: 0px 0px 0px 15px; border:1px #dedede80 solid;border-radius: 6px;padding: 0px 8px 0px 8px;font-size: 12px;">
                         {{ item2 }}
                       </div>
                     </div>
                   </div>
                 </div>
-                <div style="margin-top: 10px">{{ item.desc }}</div>
+                <div style="margin-top: 10px; text-align: left;">{{ item.desc }}</div>
               </div>
-            </el-card>
+            </div>
           </el-col>
         </el-row>
       </div>
@@ -54,14 +54,14 @@
                   :src="dialogModel.indexImg"
                   class="Star-img"
                   fit="fill"
-                  style="width: 80px; height: 80px;box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);"></el-image>
+                  style="width: 80px; height: 80px;border:1px #dedede80 solid;"></el-image>
               <div>
                 <div style="font-size: 18px;font-weight: bold;margin: 14px 0px 12px 15px;">
                   {{ dialogModel.name }}
                 </div>
                 <div style="display: flex">
                   <div v-for="(item2,index2) in dialogModel.tag"
-                       style="margin: 0px 0px 0px 15px; border:1px #dedede solid;border-radius: 12px;padding: 3px 6px 4px 8px;">
+                       style="margin: 0px 0px 0px 15px; border:1px #dedede80 solid;border-radius: 6px;padding: 0px 8px 0px 8px;font-size: 12px;">
                     {{ item2 }}
                   </div>
                 </div>
@@ -203,64 +203,74 @@ a {
 }
 
 
-.box-card {
+.works-card {
   height: 230px;
-  border-radius: 15px !important;
-  margin-top: 20px;
-  //max-width: 368px;
+  text-align: center;
+	border: 1px solid #eaeefb;
+	border-radius: 10px;
+	-webkit-transition: bottom 0.4s;
+	transition: bottom 0.4s;
+	position: relative;
+	bottom: 0;
+	margin: 10px 10px 10px 0;
+  padding: 20px;
 }
 
-.box-card:hover {
-  transform: translateY(-2px);
+.works-card:hover {
+  bottom: 6px;
+	box-shadow: 0 6px 18px 0 rgba(232, 237, 250, .5);
 }
 
-.box-card:hover .mask {
+.works-card:hover .mask {
   bottom: -1.5rem;
 }
 
-.box-card:hover .mask-c-1 {
+.works-card:hover .mask-c-1 {
   bottom: -2.5rem;
 }
 
 .site-card-tag {
-  position: relative;
-  top: -22px;
-  left: -20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   padding: 4px 8px;
   background-color: #57bd6a;
-  box-shadow: 0 8px 12px -3px rgba(40, 109, 234, .20);;
   color: #fff;
   z-index: 1;
-  border-radius: 12px 0 12px 0;
+  border-radius: 0 12px 0 12px;
   transition: 0.3s;
   font-size: 0.6rem;
+  line-height: 1rem;
+  opacity: 0.8;
 }
 
 .site-card-tag2 {
-  position: relative;
-  top: -22px;
-  left: -20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   padding: 4px 8px;
   background-color: #425aef;
-  box-shadow: 0 8px 12px -3px rgba(40, 109, 234, .20);;
   color: #fff;
   z-index: 1;
-  border-radius: 12px 0 12px 0;
+  border-radius: 0 12px 0 12px;
   transition: 0.3s;
   font-size: 0.6rem;
+  line-height: 1rem;
+  opacity: 0.8;
 }
 .site-card-tag3 {
-  position: relative;
-  top: -22px;
-  left: -20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   padding: 4px 8px;
   background-color: #d52b2b;
-  box-shadow: 0 8px 12px -3px rgba(40, 109, 234, .20);;
   color: #fff;
   z-index: 1;
-  border-radius: 12px 0 12px 0;
+  border-radius: 0 12px 0 12px;
   transition: 0.3s;
   font-size: 0.6rem;
+  line-height: 1rem;
+  opacity: 0.8;
 }
 
 .light {
@@ -299,14 +309,14 @@ a {
 import {onMounted, ref} from 'vue';
 
 let dialogModel = ref({
-  name: '多客社交圈子',
-  indexImg: 'https://docs.ahuaaa.cn/docsimg/works/duoke.jpg',
-  desc: '多客圈子系统，提供开源前端和后端，是一款精心打磨的圈子社交论坛系统。让你快速拥有自己的圈子',
+  name: '小满社圈',
+  indexImg: 'https://pans.ahuaaa.cn/docsimg/works/xiaomantongcheng-wx.jpg',
+  desc: '随时随地发现本地新鲜事。社区圈子论坛系统',
   img: [
-    'https://pans.ahuaaa.cn/docsimg/topimg.jpg', 'https://pans.ahuaaa.cn/docsimg/topimg.jpg', 'https://pans.ahuaaa.cn/docsimg/topimg.jpg'
+    'https://pans.ahuaaa.cn/docsimg/works/xiaomantongcheng-wx.jpg'
   ],
-  tag: ['多客', '圈子', '开源'],
-  openSource: true,
+  tag: ['同城', '社区', '圈子'],
+  openSource: false,
   github: '',
   gitee: '',
   uniapp: '',
@@ -655,16 +665,18 @@ const WorkList = ref([{
     github: '',
     gitee: '',
   }, {
-    name: '小满同城圈',
-    desc: '随时随地发现本地新鲜事。社区圈子论坛系统',
-    indexImg: 'https://pans.ahuaaa.cn/docsimg/works/xiaomantongcheng-wx.jpg',
+    name: '多客社交圈子',
+    indexImg: 'https://docs.ahuaaa.cn/docsimg/works/duoke.jpg',
+    desc: '多客圈子系统，提供开源前端和后端，是一款精心打磨的圈子社交论坛系统。让你快速拥有自己的圈子',
     img: [
-      'https://pans.ahuaaa.cn/docsimg/works/xiaomantongcheng-wx.jpg'
+      'https://pans.ahuaaa.cn/docsimg/topimg.jpg', 'https://pans.ahuaaa.cn/docsimg/topimg.jpg', 'https://pans.ahuaaa.cn/docsimg/topimg.jpg'
     ],
-    tag: ['同城', '社区', '圈子'],
-    openSource: false,
+    tag: ['多客', '圈子', '开源'],
+    openSource: true,
     github: '',
     gitee: '',
+    uniapp: '',
+    link: '',
   }, {
     name: '电脑参数通',
     desc: '一个纯粹的电脑硬件参数查询对比小程序CPU、显卡参数快捷查询与对比',
@@ -772,6 +784,17 @@ const WorkList = ref([{
       'https://img.ahuaaa.cn/img/20240302000504.png'
     ],
     tag: ['圈子', '生活'],
+    openSource: false,
+    github: '',
+    gitee: '',
+  },{
+    name: '家家康陪诊',
+    desc: '陪诊小程序',
+    indexImg: 'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1736855587318-assets/web-upload/31f51fe0-50f3-4fa8-9a43-b053e487ee9e.jpeg',
+    img: [
+      'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1736855587318-assets/web-upload/31f51fe0-50f3-4fa8-9a43-b053e487ee9e.jpeg'
+    ],
+    tag: ['健康', '医疗'],
     openSource: false,
     github: '',
     gitee: '',

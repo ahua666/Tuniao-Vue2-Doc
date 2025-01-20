@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="Helper" @click="toggle">
-      <img class="littleHelper" src="../public/common/tuniao_h5.png" alt="">
+      <img class="littleHelper" src="../../.vitepress/public/common/logo/tnkewo.jpg" alt="">
     </div>
   </div>
 </template>
@@ -17,11 +17,16 @@ export default {
     url: {
       type: String,
       default: '/'
+    },
+    prefix: {
+      type: String,
+      default: '/web/#'
     }
   },
   data() {
     return {
-      baseUrl: 'https://tuniao.ahuaaa.cn/#',
+      // baseUrl: 'https://tuniao.ahuaaa.cn/#',
+      baseUrl: 'https://vue2.tuniaokj.com',
       isShow: true,
     }
   },
@@ -33,7 +38,7 @@ export default {
   },
   computed: {
     href() {
-      return this.url.indexOf('http') === 0 ? this.url : `${this.baseUrl}${this.url}`;
+      return this.url.indexOf('http') === 0 ? this.url : `${this.baseUrl}${this.prefix}${this.url}`;
     }
   },
   created() {
@@ -44,7 +49,7 @@ export default {
 <style scoped>
 .Helper{
   position: fixed;
-  right: 40px;
+  right: 0px;
   bottom: 80px;
   z-index: 9999;
 }
